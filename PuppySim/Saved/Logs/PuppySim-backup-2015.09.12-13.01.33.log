@@ -1,0 +1,1064 @@
+﻿[2015.09.12-16.51.35:929][  0]Log file open, 09/12/15 12:51:35
+[2015.09.12-16.51.35:929][  0]LogInit:Display: Running engine for game: PuppySim
+[2015.09.12-16.51.35:929][  0]LogInit:Display: RandInit(675311279) SRandInit(675311280).
+[2015.09.12-16.51.35:929][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.12-16.51.35:929][  0]LogStats: Stats thread started at 0.075724
+[2015.09.12-16.51.35:929][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.12-16.51.35:929][  0]LogInit: API Version: 2672455
+[2015.09.12-16.51.35:929][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.12-16.51.35:929][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.12-16.51.35:929][  0]LogInit: Build Configuration: Development
+[2015.09.12-16.51.35:929][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.12-16.51.35:929][  0]LogInit: Command line:  
+[2015.09.12-16.51.35:929][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.12-16.51.35:929][  0]LogInit: Rocket: 1
+[2015.09.12-16.51.35:939][  0]LogInit: Using libcurl 7.41.0
+[2015.09.12-16.51.35:939][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.12-16.51.35:939][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.12-16.51.35:939][  0]LogInit:  - other features:
+[2015.09.12-16.51.35:939][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.12-16.51.35:940][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.12-16.51.35:940][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.12-16.51.35:940][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.12-16.51.35:940][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.12-16.51.35:940][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.12-16.51.35:940][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.12-16.51.35:940][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.12-16.51.35:940][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.12-16.51.35:940][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.12-16.51.35:948][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.12-16.51.35:956][  0]LogInit: Object subsystem initialized
+[2015.09.12-16.51.35:957][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.12-16.51.35:957][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.12-16.51.35:969][  0]LogInit: Computer: TSCHIRGIMACHINE
+[2015.09.12-16.51.35:969][  0]LogInit: User: pault000
+[2015.09.12-16.51.35:969][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.12-16.51.35:969][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.09.12-16.51.35:969][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.12-16.51.35:969][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.12-16.51.35:969][  0]LogMemory: Process Physical Memory: 52.69 MB used, 52.69 MB peak
+[2015.09.12-16.51.35:969][  0]LogMemory: Process Virtual Memory: 57.07 MB used, 57.07 MB peak
+[2015.09.12-16.51.35:969][  0]LogMemory: Physical Memory: 4876.24 MB used, 16267.18 MB total
+[2015.09.12-16.51.35:969][  0]LogMemory: Virtual Memory: 353.50 MB used, 134217728.00 MB total
+[2015.09.12-16.51.36:003][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.09.12-16.51.36:819][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.09.12-16.51.36:819][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.09.12-16.51.36:833][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.09.12-16.51.36:833][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.09.12-16.51.37:285][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.12-16.51.37:285][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.12-16.51.37:285][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.12-16.51.37:289][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.12-16.51.37:290][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.12-16.51.37:303][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.12-16.51.37:319][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Data/Unreal Projects/PupSim/PuppySim/Intermediate/Shaders/WorkingDirectory/6288/).
+[2015.09.12-16.51.37:319][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Data/Unreal Projects/PupSim/PuppySim/Intermediate/Shaders/tmp/B9908D01431FF97C52E774B7E0013ED9/'.
+[2015.09.12-16.51.37:319][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.12-16.51.38:518][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.12-16.51.38:523][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.12-16.51.38:529][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.12-16.51.38:534][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.12-16.51.38:539][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.12-16.51.38:544][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.12-16.51.38:547][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.12-16.51.38:551][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.12-16.51.38:554][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.12-16.51.38:557][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.12-16.51.38:561][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.12-16.51.38:565][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.12-16.51.38:565][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.12-16.51.38:584][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.12-16.51.38:587][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.12-16.51.38:590][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.12-16.51.38:593][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.12-16.51.38:593][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.12-16.51.38:684][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.12-16.51.38:728][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/pault_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.12-16.51.38:728][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/pault_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.12-16.51.38:728][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Data/Unreal Projects/PupSim/PuppySim/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.12-16.51.38:728][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.12-16.51.38:728][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Data/Unreal Projects/PupSim/PuppySim/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.12-16.51.38:728][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.12-16.51.38:888][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.12-16.51.38:900][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pault_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.12-16.51.39:087][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.12-16.51.39:090][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.12-16.51.39:210][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.12-16.51.39:210][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.12-16.51.39:489][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.12-16.51.40:177][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.12-16.51.40:273][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.09.12-16.51.40:443][  0]SourceControl: Info Source control is disabled
+[2015.09.12-16.51.40:450][  0]SourceControl: Info Source control is disabled
+[2015.09.12-16.51.40:462][  0]SourceControl: Info Source control is disabled
+[2015.09.12-16.51.40:472][  0]SourceControl: Info Source control is disabled
+[2015.09.12-16.51.40:605][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.12-16.51.40:676][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.12-16.51.40:676][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.09.12-16.51.40:732][  0]LogEngine: Initializing Engine...
+[2015.09.12-16.51.40:734][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.12-16.51.40:735][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.12-16.51.40:855][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.12-16.51.40:859][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.51.41:000][  0]LogInit: FAudioDevice initialized.
+[2015.09.12-16.51.41:020][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/pault_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.12-16.51.41:025][  0]LogInit: Texture streaming: Enabled
+[2015.09.12-16.51.41:030][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.12-16.51.41:030][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.12-16.51.41:030][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 537121804b7cf4be510b0681ba3e9dcc|b9d68997175147afad91b4c26e41b99d|9767a706-ec85-4912-88a3-1f6ddb1dec1c
+[2015.09.12-16.51.41:030][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.12-16.51.41:051][  0]LogInit: Transaction tracking system initialized
+[2015.09.12-16.51.41:079][  0]BlueprintLog: New page: Editor Load
+[2015.09.12-16.51.41:166][  0]LocalizationService: Info Localization service is disabled
+[2015.09.12-16.51.41:649][  0]LogConsoleResponse:Display: 
+[2015.09.12-16.51.41:766][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.12-16.51.41:820][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PupSim/PuppySim/Content/' took 0.01s
+[2015.09.12-16.51.41:820][  0]SourceControl: Info Source control is disabled
+[2015.09.12-16.51.41:820][  0]Cmd: MAP LOAD FILE="D:/Data/Unreal Projects/PupSim/PuppySim/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.12-16.51.41:820][  0]LightingResults: New page: Lighting Build
+[2015.09.12-16.51.41:823][  0]MapCheck: New page: Map Check
+[2015.09.12-16.51.41:823][  0]LightingResults: New page: Lighting Build
+[2015.09.12-16.51.41:833][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FD431BCE0
+[2015.09.12-16.51.42:314][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.51.42:322][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Mesh2P
+[2015.09.12-16.51.42:322][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Mesh2P
+[2015.09.12-16.51.42:325][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.12-16.51.42:325][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.12-16.51.42:371][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.288ms to complete.
+[2015.09.12-16.51.42:371][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.551
+[2015.09.12-16.51.42:481][  0]LogCollectionManager: Loaded 0 collections in 0.002029 seconds
+[2015.09.12-16.51.42:521][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PupSim/PuppySim/Saved/Collections/' took 0.01s
+[2015.09.12-16.51.42:521][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PupSim/PuppySim/Content/Developers/pault000/Collections/' took 0.01s
+[2015.09.12-16.51.42:521][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PupSim/PuppySim/Content/Collections/' took 0.01s
+[2015.09.12-16.51.42:521][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 1867 classes and 333 folders.
+[2015.09.12-16.51.42:525][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.09.12-16.51.42:531][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.12-16.51.42:570][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.12-16.51.42:573][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.12-16.51.42:599][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.12-16.51.42:603][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.12-16.51.42:626][  0]LogLoad: Full Startup: 7.32 seconds (BP compile: 0.12 seconds)
+[2015.09.12-16.51.42:644][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Failed import for SkeletalMeshComponent /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:SkeletalMesh_GEN_VARIABLE
+[2015.09.12-16.51.42:644][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Failed import for SkeletalMeshComponent /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:SkeletalMeshComponent_8__FC42DFE8
+[2015.09.12-16.51.42:703][  0]LogContentStreaming: Texture pool size now 700 MB
+[2015.09.12-16.51.42:869][  0]LogRenderer: Reallocating scene render targets to support 856x460 (Frame:2).
+[2015.09.12-16.51.43:201][  4]LogAssetRegistry: Asset discovery search completed in 2.9393 seconds
+[2015.09.12-16.51.43:201][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.12-16.51.43:201][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2015.09.12-16.51.45:700][ 78]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.51.45:701][ 78]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:51:45 AM)
+[2015.09.12-16.51.45:701][ 78]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.51.45:808][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.107194s)
+[2015.09.12-16.51.45:812][ 78]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.51.45:812][ 78]LogPlayLevel: PIE: World Init took: (0.003568s)
+[2015.09.12-16.51.45:813][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.111758s)
+[2015.09.12-16.51.45:921][ 78]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.51.45:949][ 78]LogInit: FAudioDevice initialized.
+[2015.09.12-16.51.46:048][ 78]LogLinker:Warning: Asset 'D:/Data/Unreal Projects/PupSim/PuppySim/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.12-16.51.46:157][ 78]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.51.46:181][ 78]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.51.46
+[2015.09.12-16.51.46:181][ 78]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.51.46:182][ 78]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.51.46:183][ 78]LogWorld: Bringing up level for play took: 0.020972
+[2015.09.12-16.51.46:189][ 78]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.283
+[2015.09.12-16.51.49:330][228]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0E7E
+[2015.09.12-16.51.49:331][228]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.12-16.51.49:348][229]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0E7E
+[2015.09.12-16.51.49:349][229]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.12-16.51.49:367][230]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0E7E
+[2015.09.12-16.51.49:368][230]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.12-16.51.49:387][231]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0E7E
+[2015.09.12-16.51.49:388][231]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.12-16.51.49:409][232]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0E7E
+[2015.09.12-16.51.49:409][232]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.12-16.51.49:430][233]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0E7E
+[2015.09.12-16.51.49:431][233]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.12-16.51.49:453][234]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0E7E
+[2015.09.12-16.51.49:454][234]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.12-16.51.49:474][235]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0791
+[2015.09.12-16.51.49:475][235]PIE:Error: Error Accessed None 'physicsHandle' from node Release Component in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.12-16.51.49:475][235]LogScript:Warning: Accessed None 'CallFunc_BreakHitResult_HitComponent'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:085A
+[2015.09.12-16.51.49:476][235]PIE:Error: Error Accessed None 'CallFunc_BreakHitResult_HitComponent' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.12-16.52.03:050][ 14]LogPhysics:Warning: PHYSX: d:\buildfarm\buildmachine_++depot+ue4\engine\source\thirdparty\notforlicensees\physx\physx_3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.09.12-16.52.03:261][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FD9CAA8E0
+[2015.09.12-16.52.10:707][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube11)
+[2015.09.12-16.52.29:423][428]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.12-16.52.29:954][428]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2015.09.12-16.52.33:926][581]LogRenderer: Reallocating scene render targets to support 1132x572 (Frame:2998).
+[2015.09.12-16.52.41:815][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2015.09.12-16.52.42:526][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.52.42:526][909]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:52:42 AM)
+[2015.09.12-16.52.42:527][909]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.52.42:546][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019453s)
+[2015.09.12-16.52.42:547][909]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.52.42:547][909]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2015.09.12-16.52.42:547][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020553s)
+[2015.09.12-16.52.42:547][909]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-16.52.42:579][909]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.52.42:585][909]LogInit: FAudioDevice initialized.
+[2015.09.12-16.52.42:621][909]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.52.42:626][909]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.52.42
+[2015.09.12-16.52.42:626][909]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.52.42:626][909]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.52.42:627][909]LogWorld: Bringing up level for play took: 0.004560
+[2015.09.12-16.52.42:628][909]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.722
+[2015.09.12-16.52.43:704][965]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FC634B100
+[2015.09.12-16.52.45:687][ 77]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.09.12-16.52.52:725][388]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.09.12-16.52.54:603][500]Cmd: DELETE
+[2015.09.12-16.52.54:603][500]Cmd: ACTOR DELETE
+[2015.09.12-16.52.54:604][500]LogEditorActor: Deleted Actor: FirstPersonCharacter_C
+[2015.09.12-16.52.54:636][500]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-16.52.54:655][500]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FC65C3B00
+[2015.09.12-16.52.54:658][500]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2015.09.12-16.52.57:758][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.52.57:758][626]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:52:57 AM)
+[2015.09.12-16.52.57:758][626]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.52.57:781][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022361s)
+[2015.09.12-16.52.57:782][626]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.52.57:782][626]LogPlayLevel: PIE: World Init took: (0.001411s)
+[2015.09.12-16.52.57:782][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024025s)
+[2015.09.12-16.52.57:782][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-16.52.57:838][626]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.52.57:843][626]LogInit: FAudioDevice initialized.
+[2015.09.12-16.52.57:875][626]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.52.57:880][626]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.52.57
+[2015.09.12-16.52.57:880][626]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.52.57:880][626]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.52.57:881][626]LogWorld: Bringing up level for play took: 0.004843
+[2015.09.12-16.52.57:883][626]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.022
+[2015.09.12-16.53.05:066][ 40]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FDD1DA3E0
+[2015.09.12-16.53.08:262][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.09.12-16.53.08:611][231]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2015.09.12-16.53.09:392][276]Cmd: DELETE
+[2015.09.12-16.53.09:392][276]Cmd: ACTOR DELETE
+[2015.09.12-16.53.09:393][276]LogEditorActor: Deleted Actor: PlayerStart
+[2015.09.12-16.53.09:421][276]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2015.09.12-16.53.10:623][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.53.10:623][347]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:53:10 AM)
+[2015.09.12-16.53.10:623][347]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.53.10:646][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023087s)
+[2015.09.12-16.53.10:647][347]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.53.10:647][347]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2015.09.12-16.53.10:648][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024286s)
+[2015.09.12-16.53.10:676][347]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.53.10:682][347]LogInit: FAudioDevice initialized.
+[2015.09.12-16.53.10:716][347]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.53.10:721][347]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.53.10
+[2015.09.12-16.53.10:722][347]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.53.10:722][347]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.53.10:722][347]LogWorld: Bringing up level for play took: 0.004713
+[2015.09.12-16.53.10:724][347]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.82
+[2015.09.12-16.53.14:613][574]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FDC916840
+[2015.09.12-16.53.24:511][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.53.24:511][138]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:53:24 AM)
+[2015.09.12-16.53.24:511][138]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.53.24:532][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020954s)
+[2015.09.12-16.53.24:533][138]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.53.24:533][138]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2015.09.12-16.53.24:533][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022162s)
+[2015.09.12-16.53.24:533][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-16.53.24:565][138]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.53.24:571][138]LogInit: FAudioDevice initialized.
+[2015.09.12-16.53.24:602][138]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.53.24:607][138]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.53.24
+[2015.09.12-16.53.24:607][138]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.53.24:607][138]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.53.24:608][138]LogWorld: Bringing up level for play took: 0.004720
+[2015.09.12-16.53.24:612][138]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.707
+[2015.09.12-16.53.33:208][638]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FE4CFB880
+[2015.09.12-16.53.34:619][722]LogEditorViewport: Clicking on Actor (LMB): Mirrir_C (Mirrir)
+[2015.09.12-16.53.35:724][788]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164.StaticMesh)
+[2015.09.12-16.53.35:724][788]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164.StaticMesh)
+[2015.09.12-16.53.36:026][806]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164.StaticMesh)
+[2015.09.12-16.53.36:026][806]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164.StaticMesh)
+[2015.09.12-16.53.38:844][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.53.38:844][972]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:53:38 AM)
+[2015.09.12-16.53.38:844][972]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.53.38:869][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025153s)
+[2015.09.12-16.53.38:870][972]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.53.38:870][972]LogPlayLevel: PIE: World Init took: (0.001034s)
+[2015.09.12-16.53.38:870][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026412s)
+[2015.09.12-16.53.38:902][972]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.53.38:908][972]LogInit: FAudioDevice initialized.
+[2015.09.12-16.53.38:940][972]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.53.38:945][972]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.53.38
+[2015.09.12-16.53.38:945][972]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.53.38:945][972]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.53.38:946][972]LogWorld: Bringing up level for play took: 0.004845
+[2015.09.12-16.53.38:948][972]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.044
+[2015.09.12-16.53.48:134][457]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FE7485800
+[2015.09.12-16.53.50:443][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.53.50:443][593]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:53:50 AM)
+[2015.09.12-16.53.50:443][593]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.53.50:463][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019949s)
+[2015.09.12-16.53.50:464][593]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.53.50:465][593]LogPlayLevel: PIE: World Init took: (0.001424s)
+[2015.09.12-16.53.50:465][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021578s)
+[2015.09.12-16.53.50:494][593]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.53.50:500][593]LogInit: FAudioDevice initialized.
+[2015.09.12-16.53.50:535][593]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.53.50:540][593]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.53.50
+[2015.09.12-16.53.50:540][593]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.53.50:540][593]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.53.50:541][593]LogWorld: Bringing up level for play took: 0.004947
+[2015.09.12-16.53.50:543][593]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.638
+[2015.09.12-16.54.22:485][320]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FE7485BC0
+[2015.09.12-16.54.40:468][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.09.12-16.55.11:784][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube20)
+[2015.09.12-16.55.14:827][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-16.55.16:831][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.09.12-16.55.17:066][689]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FirstPersonHUD_C_1' or package '/Engine/Transient'.
+[2015.09.12-16.55.17:066][689]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FirstPersonHUD_C_0' or package '/Engine/Transient'.
+[2015.09.12-16.55.17:066][689]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_FirstPersonHUD_C_49' or package '/Engine/Transient'.
+[2015.09.12-16.55.17:066][689]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_FirstPersonHUD_C_48' or package '/Engine/Transient'.
+[2015.09.12-16.55.17:199][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FEA18B880
+[2015.09.12-16.55.17:204][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FDC682E80
+[2015.09.12-16.55.18:424][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.55.18:424][751]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:55:18 AM)
+[2015.09.12-16.55.18:424][751]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.55.18:446][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021403s)
+[2015.09.12-16.55.18:446][751]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.55.18:446][751]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2015.09.12-16.55.18:447][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022408s)
+[2015.09.12-16.55.18:447][751]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-16.55.18:476][751]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.55.18:484][751]LogInit: FAudioDevice initialized.
+[2015.09.12-16.55.18:515][751]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.55.18:520][751]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.55.18
+[2015.09.12-16.55.18:520][751]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.55.18:520][751]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.55.18:521][751]LogWorld: Bringing up level for play took: 0.004791
+[2015.09.12-16.55.18:522][751]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.09.12-16.55.18:523][751]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.618
+[2015.09.12-16.55.35:789][670]LogScript:Warning: Accessed None 'CallFunc_BreakHitResult_HitComponent'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_45
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:085A
+[2015.09.12-16.55.35:789][670]PIE:Error: Error Accessed None 'CallFunc_BreakHitResult_HitComponent' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.12-16.55.55:759][721]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FC65C3EC0
+[2015.09.12-16.56.07:746][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.09.12-16.56.08:114][325]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.09.12-16.56.24:260][183]Cmd: DELETE
+[2015.09.12-16.56.24:261][183]Cmd: ACTOR DELETE
+[2015.09.12-16.56.24:262][183]LogEditorActor: Deleted Actor: FirstPersonCharacter_C
+[2015.09.12-16.56.24:322][183]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2015.09.12-16.56.26:816][333]Cmd: TRANSACTION UNDO
+[2015.09.12-16.56.26:816][333]LogEditorTransaction: Undo Delete Actors
+[2015.09.12-16.56.27:908][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.56.27:908][374]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:56:27 AM)
+[2015.09.12-16.56.27:908][374]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.56.27:930][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022259s)
+[2015.09.12-16.56.27:932][374]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.56.27:932][374]LogPlayLevel: PIE: World Init took: (0.001627s)
+[2015.09.12-16.56.27:932][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024112s)
+[2015.09.12-16.56.27:990][374]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.56.27:996][374]LogInit: FAudioDevice initialized.
+[2015.09.12-16.56.28:026][374]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.56.28:032][374]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.56.28
+[2015.09.12-16.56.28:032][374]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.56.28:032][374]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.56.28:032][374]LogWorld: Bringing up level for play took: 0.004883
+[2015.09.12-16.56.28:033][374]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.09.12-16.56.28:034][374]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.129
+[2015.09.12-16.56.36:910][844]LogScript:Warning: Accessed None 'CallFunc_BreakHitResult_HitComponent'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_46
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:085A
+[2015.09.12-16.56.36:910][844]PIE:Error: Error Accessed None 'CallFunc_BreakHitResult_HitComponent' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.12-16.56.39:450][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FDC989620
+[2015.09.12-16.56.44:677][227]Cmd: DELETE
+[2015.09.12-16.56.44:677][227]Cmd: ACTOR DELETE
+[2015.09.12-16.56.44:678][227]LogEditorActor: Deleted Actor: FirstPersonCharacter_C
+[2015.09.12-16.56.44:727][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-16.56.44:748][227]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2015.09.12-16.56.45:542][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.56.45:542][272]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:56:45 AM)
+[2015.09.12-16.56.45:542][272]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.56.45:562][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019305s)
+[2015.09.12-16.56.45:562][272]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.56.45:563][272]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2015.09.12-16.56.45:563][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020419s)
+[2015.09.12-16.56.45:591][272]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.56.45:597][272]LogInit: FAudioDevice initialized.
+[2015.09.12-16.56.45:631][272]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.56.45:636][272]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.56.45
+[2015.09.12-16.56.45:636][272]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.56.45:637][272]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.56.45:637][272]LogWorld: Bringing up level for play took: 0.004303
+[2015.09.12-16.56.45:637][272]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.09.12-16.56.45:639][272]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.266
+[2015.09.12-16.56.49:681][470]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FE77CA520
+[2015.09.12-16.57.17:883][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.57.17:883][ 71]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:57:17 AM)
+[2015.09.12-16.57.17:883][ 71]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.57.17:904][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021010s)
+[2015.09.12-16.57.17:905][ 71]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.57.17:905][ 71]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2015.09.12-16.57.17:905][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022250s)
+[2015.09.12-16.57.17:905][ 71]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-16.57.17:958][ 71]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.57.17:965][ 71]LogInit: FAudioDevice initialized.
+[2015.09.12-16.57.18:001][ 71]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.57.18:006][ 71]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.57.18
+[2015.09.12-16.57.18:006][ 71]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.57.18:006][ 71]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.57.18:007][ 71]LogWorld: Bringing up level for play took: 0.004709
+[2015.09.12-16.57.18:007][ 71]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.09.12-16.57.18:009][ 71]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.104
+[2015.09.12-16.57.18:932][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F8C23AE80
+[2015.09.12-16.57.19:472][137]LogEditorViewport: Clicking on Actor (context menu): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.09.12-16.57.30:408][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.57.30:408][633]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:57:30 AM)
+[2015.09.12-16.57.30:408][633]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.57.30:427][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018307s)
+[2015.09.12-16.57.30:427][633]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.57.30:428][633]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2015.09.12-16.57.30:428][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019514s)
+[2015.09.12-16.57.30:482][633]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.57.30:488][633]LogInit: FAudioDevice initialized.
+[2015.09.12-16.57.30:519][633]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.57.30:524][633]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.57.30
+[2015.09.12-16.57.30:524][633]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.57.30:524][633]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.57.30:525][633]LogWorld: Bringing up level for play took: 0.004557
+[2015.09.12-16.57.30:526][633]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.09.12-16.57.30:526][633]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-264.126 Y=500.691 Z=276.344] for [FirstPersonCharacter_C]
+[2015.09.12-16.57.30:527][633]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2015.09.12-16.57.30:527][633]LogGameMode:Warning: Couldn't spawn Pawn of type FirstPersonCharacter_C at PlayerStartPIE_8
+[2015.09.12-16.57.30:551][633]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.646
+[2015.09.12-16.57.30:551][633]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:028B
+[2015.09.12-16.57.30:551][633]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:551][633]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:0476
+[2015.09.12-16.57.30:551][633]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:587][634]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:028B
+[2015.09.12-16.57.30:587][634]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:587][634]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:0476
+[2015.09.12-16.57.30:587][634]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:634][635]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:028B
+[2015.09.12-16.57.30:634][635]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:634][635]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:0476
+[2015.09.12-16.57.30:634][635]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:651][636]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:028B
+[2015.09.12-16.57.30:651][636]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:651][636]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:0476
+[2015.09.12-16.57.30:651][636]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:668][637]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:028B
+[2015.09.12-16.57.30:668][637]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:668][637]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:0476
+[2015.09.12-16.57.30:668][637]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:685][638]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:028B
+[2015.09.12-16.57.30:686][638]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:686][638]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:0476
+[2015.09.12-16.57.30:686][638]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:703][639]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:028B
+[2015.09.12-16.57.30:703][639]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:703][639]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:0476
+[2015.09.12-16.57.30:703][639]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:720][640]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:028B
+[2015.09.12-16.57.30:720][640]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:720][640]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:0476
+[2015.09.12-16.57.30:721][640]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:737][641]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	Mirrir_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Mirrir_164
+	Function /Game/InteractBlueprints/Mirrir.Mirrir_C:ExecuteUbergraph_Mirrir:028B
+[2015.09.12-16.57.30:737][641]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:738][641]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:755][642]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:755][642]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:772][643]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:772][643]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:792][644]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:792][644]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:809][645]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:809][645]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:825][646]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:826][646]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:843][647]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:843][647]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:859][648]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:860][648]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:877][649]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:877][649]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:895][650]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:895][650]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:912][651]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:912][651]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:929][652]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:930][652]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:947][653]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:947][653]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:964][654]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:964][654]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:981][655]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:981][655]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:998][656]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.30:998][656]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:015][657]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:015][657]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:031][658]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:032][658]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:048][659]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:048][659]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:066][660]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:066][660]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:083][661]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:083][661]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:099][662]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:100][662]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:116][663]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:116][663]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:134][664]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:134][664]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:151][665]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:151][665]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:168][666]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:168][666]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:185][667]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:185][667]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:202][668]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:202][668]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:219][669]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:219][669]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:236][670]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:236][670]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:253][671]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:253][671]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:270][672]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:270][672]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:287][673]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:287][673]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:304][674]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:304][674]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:321][675]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:321][675]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:337][676]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:338][676]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:354][677]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:355][677]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:371][678]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:371][678]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:388][679]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:388][679]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:406][680]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:406][680]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:422][681]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:423][681]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:441][682]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:441][682]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:460][683]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:460][683]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:479][684]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:479][684]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:499][685]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:499][685]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:518][686]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:518][686]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:537][687]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:537][687]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:556][688]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:556][688]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.31:727][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F8E6C1760
+[2015.09.12-16.57.34:981][848]LogEditorViewport: Clicking on Actor (context menu): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.09.12-16.57.36:288][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.57.36:288][905]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:57:36 AM)
+[2015.09.12-16.57.36:288][905]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.57.36:308][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019282s)
+[2015.09.12-16.57.36:308][905]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.57.36:309][905]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2015.09.12-16.57.36:309][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020402s)
+[2015.09.12-16.57.36:309][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-16.57.36:360][905]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.57.36:365][905]LogInit: FAudioDevice initialized.
+[2015.09.12-16.57.36:396][905]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.57.36:401][905]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.57.36
+[2015.09.12-16.57.36:401][905]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.57.36:401][905]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.57.36:402][905]LogWorld: Bringing up level for play took: 0.004693
+[2015.09.12-16.57.36:402][905]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.09.12-16.57.36:403][905]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-216.304 Y=637.049 Z=276.344] for [FirstPersonCharacter_C]
+[2015.09.12-16.57.36:403][905]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2015.09.12-16.57.36:403][905]LogGameMode:Warning: Couldn't spawn Pawn of type FirstPersonCharacter_C at PlayerStartPIE_9
+[2015.09.12-16.57.36:404][905]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.499
+[2015.09.12-16.57.36:404][905]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:404][905]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:445][906]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:445][906]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:493][907]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:494][907]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:513][908]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:513][908]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:533][909]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:533][909]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:552][910]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:552][910]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:573][911]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:573][911]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:593][912]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:593][912]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:611][913]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:612][913]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:630][914]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:631][914]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:650][915]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:650][915]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:669][916]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:669][916]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:688][917]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:688][917]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:706][918]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:707][918]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:725][919]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:725][919]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:744][920]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:744][920]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:762][921]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:763][921]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:782][922]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:782][922]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:801][923]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:801][923]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:820][924]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:820][924]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:840][925]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:840][925]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:858][926]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:859][926]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:878][927]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:878][927]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:896][928]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:896][928]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:915][929]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:916][929]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:935][930]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:935][930]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:953][931]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:953][931]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:972][932]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:972][932]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:991][933]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.36:991][933]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:009][934]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:010][934]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:028][935]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:028][935]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:048][936]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:048][936]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:067][937]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:067][937]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:088][938]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:088][938]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:108][939]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:108][939]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:128][940]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:128][940]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:149][941]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:149][941]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:170][942]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:170][942]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:190][943]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:190][943]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:212][944]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:212][944]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:232][945]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:232][945]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:250][946]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:251][946]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:269][947]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:269][947]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:288][948]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:288][948]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:307][949]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:307][949]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:326][950]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:326][950]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:344][951]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:344][951]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:364][952]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:364][952]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:385][953]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:385][953]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:404][954]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:405][954]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:424][955]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:425][955]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:445][956]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:445][956]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:465][957]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:465][957]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:486][958]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:486][958]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:506][959]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:507][959]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:526][960]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:527][960]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:546][961]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:546][961]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:566][962]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:566][962]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:586][963]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:586][963]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:606][964]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:606][964]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:626][965]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:626][965]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:647][966]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:647][966]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:668][967]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:668][967]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:689][968]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node Set MirRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:689][968]PIE:Error: Error Accessed None 'CallFunc_GetPlayerPawn_ReturnValue' from node SetWorldRotation in graph 'EventGraph' in blueprint Mirrir
+[2015.09.12-16.57.37:842][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FE89AEE80
+[2015.09.12-16.57.39:692][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.57.39:692][ 60]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:57:39 AM)
+[2015.09.12-16.57.39:692][ 60]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.57.39:712][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020518s)
+[2015.09.12-16.57.39:714][ 60]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.57.39:714][ 60]LogPlayLevel: PIE: World Init took: (0.001448s)
+[2015.09.12-16.57.39:714][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022176s)
+[2015.09.12-16.57.39:767][ 60]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.57.39:772][ 60]LogInit: FAudioDevice initialized.
+[2015.09.12-16.57.39:804][ 60]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.57.39:808][ 60]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.57.39
+[2015.09.12-16.57.39:808][ 60]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.57.39:809][ 60]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.57.39:809][ 60]LogWorld: Bringing up level for play took: 0.004631
+[2015.09.12-16.57.39:810][ 60]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.09.12-16.57.39:812][ 60]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.094
+[2015.09.12-16.57.40:785][ 98]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F874BA700
+[2015.09.12-16.57.42:674][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.57.42:674][195]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:57:42 AM)
+[2015.09.12-16.57.42:674][195]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.57.42:694][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020331s)
+[2015.09.12-16.57.42:695][195]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.57.42:695][195]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2015.09.12-16.57.42:695][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021522s)
+[2015.09.12-16.57.42:752][195]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.57.42:759][195]LogInit: FAudioDevice initialized.
+[2015.09.12-16.57.42:794][195]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.57.42:800][195]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.57.42
+[2015.09.12-16.57.42:800][195]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.57.42:800][195]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.57.42:801][195]LogWorld: Bringing up level for play took: 0.005435
+[2015.09.12-16.57.42:801][195]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.09.12-16.57.42:803][195]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.897
+[2015.09.12-16.57.43:542][215]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FCE2A5B20
+[2015.09.12-16.57.44:186][246]LogEditorViewport: Clicking on Actor (context menu): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.09.12-16.57.53:210][659]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.09.12-16.57.53:843][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.09.12-16.57.54:319][721]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.09.12-16.57.57:286][876]Cmd: DELETE
+[2015.09.12-16.57.57:286][876]Cmd: ACTOR DELETE
+[2015.09.12-16.57.57:286][876]LogEditorActor: Deleted Actor: FirstPersonCharacter_C
+[2015.09.12-16.57.57:328][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-16.57.57:351][876]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2015.09.12-16.58.09:550][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.58.09:550][551]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:58:09 AM)
+[2015.09.12-16.58.09:550][551]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.58.09:568][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018320s)
+[2015.09.12-16.58.09:569][551]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.58.09:569][551]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2015.09.12-16.58.09:569][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019532s)
+[2015.09.12-16.58.09:569][551]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.12-16.58.09:599][551]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.58.09:605][551]LogInit: FAudioDevice initialized.
+[2015.09.12-16.58.09:637][551]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.58.09:643][551]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.58.09
+[2015.09.12-16.58.09:643][551]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.58.09:643][551]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.58.09:643][551]LogWorld: Bringing up level for play took: 0.004893
+[2015.09.12-16.58.09:644][551]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.09.12-16.58.09:645][551]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.26
+[2015.09.12-16.58.13:639][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F8E1F9DA0
+[2015.09.12-16.58.15:751][791]LogSavePackage: Save=1313.342407ms
+[2015.09.12-16.58.15:751][791]LogSavePackage: Moving 'D:/Data/Unreal Projects/PupSim/PuppySim/Saved/FirstPersonExampleMap88683DF6462C3CA00713299AAA38B3D0.tmp' to 'D:/Data/Unreal Projects/PupSim/PuppySim/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.09.12-16.58.15:753][791]LogSavePackage: Total save time: 1331.097707ms
+[2015.09.12-16.58.15:753][791]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PupSim/PuppySim/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2015.09.12-16.58.15:789][791]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.438
+[2015.09.12-16.58.15:795][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonGameMode" FILE="D:/Data/Unreal Projects/PupSim/PuppySim/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset" SILENT=true
+[2015.09.12-16.58.15:853][791]LogSavePackage: Save=7.554058ms
+[2015.09.12-16.58.15:853][791]LogSavePackage: Moving 'D:/Data/Unreal Projects/PupSim/PuppySim/Saved/FirstPersonGameMode00D226CC406FF2CD329B7F976D4C4C7D.tmp' to 'D:/Data/Unreal Projects/PupSim/PuppySim/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset'
+[2015.09.12-16.58.15:854][791]LogSavePackage: Total save time: 35.871509ms
+[2015.09.12-16.58.15:854][791]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PupSim/PuppySim/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
+[2015.09.12-16.58.17:974][915]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.12-16.58.17:975][915]PIE: New page: PIE session: FirstPersonExampleMap (Sep 12, 2015, 8:58:17 AM)
+[2015.09.12-16.58.17:975][915]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.09.12-16.58.17:995][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020435s)
+[2015.09.12-16.58.17:996][915]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.09.12-16.58.17:996][915]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2015.09.12-16.58.17:996][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021539s)
+[2015.09.12-16.58.18:026][915]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.12-16.58.18:031][915]LogInit: FAudioDevice initialized.
+[2015.09.12-16.58.18:064][915]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.12-16.58.18:069][915]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.09.12-12.58.18
+[2015.09.12-16.58.18:069][915]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.58.18:069][915]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.12-16.58.18:069][915]LogWorld: Bringing up level for play took: 0.003938
+[2015.09.12-16.58.18:070][915]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.09.12-16.58.18:071][915]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.166
+[2015.09.12-16.58.20:581][ 47]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002F8E02ED40
+[2015.09.12-16.59.29:195][612]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.12-16.59.29:556][613]Cmd: QUIT_EDITOR
+[2015.09.12-16.59.29:998][613]LogExit: Preparing to exit.
+[2015.09.12-16.59.31:041][613]LogExit: Editor shut down
+[2015.09.12-16.59.31:041][613]LogExit: Transaction tracking system shut down
+[2015.09.12-16.59.31:044][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FC555C7C0
+[2015.09.12-16.59.31:044][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FD9DBB880
+[2015.09.12-16.59.31:044][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FDAF75C60
+[2015.09.12-16.59.31:044][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FDC347B00
+[2015.09.12-16.59.31:045][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FDAF75300
+[2015.09.12-16.59.31:045][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FDAF74F40
+[2015.09.12-16.59.31:045][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FD47FEA20
+[2015.09.12-16.59.31:045][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002FCB151D00
+[2015.09.12-16.59.31:278][613]LogExit: Object subsystem successfully closed.
+[2015.09.12-16.59.31:293][613]LogD3D11RHI: Shutdown
+[2015.09.12-16.59.31:293][613]LogD3D11RHI: CleanupD3DDevice
+[2015.09.12-16.59.31:338][613]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.12-16.59.31:351][613]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (199)
+[2015.09.12-16.59.31:351][613]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.09.12-16.59.31:351][613]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.09.12-16.59.31:351][613]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.09.12-16.59.31:351][613]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.09.12-16.59.31:351][613]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.09.12-16.59.31:351][613]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.09.12-16.59.31:352][613]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.09.12-16.59.31:352][613]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.09.12-16.59.31:352][613]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.09.12-16.59.31:352][613]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.09.12-16.59.31:352][613]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.09.12-16.59.31:353][613]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.09.12-16.59.32:070][613]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.09.12-16.59.32:071][613]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.09.12-16.59.32:269][613]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.09.12-16.59.32:269][613]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.09.12-16.59.32:269][613]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.09.12-16.59.32:269][613]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.09.12-16.59.32:269][613]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.09.12-16.59.32:269][613]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.09.12-16.59.32:269][613]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.09.12-16.59.32:269][613]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.09.12-16.59.32:279][613]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.09.12-16.59.32:280][613]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.09.12-16.59.32:281][613]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.09.12-16.59.32:282][613]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.09.12-16.59.32:411][613]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.09.12-16.59.32:412][613]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.09.12-16.59.32:412][613]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.09.12-16.59.32:513][613]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.09.12-16.59.32:513][613]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.09.12-16.59.32:513][613]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.09.12-16.59.32:515][613]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.09.12-16.59.32:515][613]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.09.12-16.59.32:516][613]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.09.12-16.59.32:516][613]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.09.12-16.59.32:516][613]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.09.12-16.59.32:516][613]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.09.12-16.59.32:516][613]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.09.12-16.59.32:516][613]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.09.12-16.59.32:516][613]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.09.12-16.59.32:516][613]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.09.12-16.59.32:516][613]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.09.12-16.59.32:516][613]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.09.12-16.59.32:516][613]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.09.12-16.59.32:516][613]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.09.12-16.59.32:516][613]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.09.12-16.59.32:516][613]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.09.12-16.59.32:518][613]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.09.12-16.59.32:518][613]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.09.12-16.59.32:518][613]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.09.12-16.59.32:518][613]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.09.12-16.59.32:518][613]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.09.12-16.59.32:518][613]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.09.12-16.59.32:518][613]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.09.12-16.59.32:518][613]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.09.12-16.59.32:518][613]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.09.12-16.59.32:518][613]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.09.12-16.59.32:519][613]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.09.12-16.59.32:606][613]LogDerivedDataCache: Shutdown
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.09.12-16.59.32:606][613]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.09.12-16.59.33:608][613]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.09.12-16.59.33:608][613]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.09.12-16.59.33:608][613]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.09.12-16.59.33:608][613]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.09.12-16.59.33:608][613]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.09.12-16.59.33:608][613]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.09.12-16.59.33:609][613]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.09.12-16.59.33:609][613]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.09.12-16.59.33:609][613]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.09.12-16.59.33:609][613]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.12-16.59.33:609][613]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.12-16.59.33:609][613]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.12-16.59.33:609][613]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.12-16.59.33:609][613]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.12-16.59.33:609][613]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.12-16.59.33:609][613]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.12-16.59.33:610][613]LogExit: Exiting.
+[2015.09.12-16.59.33:622][613]Log file closed, 09/12/15 12:59:33

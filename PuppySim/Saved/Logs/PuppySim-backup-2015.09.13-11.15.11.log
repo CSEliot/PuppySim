@@ -1,0 +1,1116 @@
+﻿[2015.09.13-11.58.47:920][  0]Log file open, 09/13/15 07:58:47
+[2015.09.13-11.58.47:920][  0]LogInit:Display: Running engine for game: PuppySim
+[2015.09.13-11.58.47:920][  0]LogInit:Display: RandInit(-1581005321) SRandInit(-1581005321).
+[2015.09.13-11.58.47:920][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.13-11.58.47:920][  0]LogStats: Stats thread started at 0.076747
+[2015.09.13-11.58.47:920][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.13-11.58.47:920][  0]LogInit: API Version: 2672455
+[2015.09.13-11.58.47:920][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.13-11.58.47:920][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.13-11.58.47:920][  0]LogInit: Build Configuration: Development
+[2015.09.13-11.58.47:920][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.13-11.58.47:920][  0]LogInit: Command line:  
+[2015.09.13-11.58.47:920][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.13-11.58.47:920][  0]LogInit: Rocket: 1
+[2015.09.13-11.58.47:927][  0]LogInit: Using libcurl 7.41.0
+[2015.09.13-11.58.47:927][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.13-11.58.47:927][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.13-11.58.47:927][  0]LogInit:  - other features:
+[2015.09.13-11.58.47:927][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.13-11.58.47:927][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.13-11.58.47:927][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.13-11.58.47:927][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.13-11.58.47:927][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.13-11.58.47:927][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.13-11.58.47:927][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.13-11.58.47:927][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.13-11.58.47:927][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.13-11.58.47:927][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.13-11.58.47:934][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.13-11.58.47:941][  0]LogInit: Object subsystem initialized
+[2015.09.13-11.58.47:942][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.13-11.58.47:942][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.13-11.58.47:951][  0]LogInit: Computer: TSCHIRGIMACHINE
+[2015.09.13-11.58.47:952][  0]LogInit: User: pault000
+[2015.09.13-11.58.47:952][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.13-11.58.47:952][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.09.13-11.58.47:952][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.13-11.58.47:952][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.13-11.58.47:952][  0]LogMemory: Process Physical Memory: 52.82 MB used, 52.82 MB peak
+[2015.09.13-11.58.47:952][  0]LogMemory: Process Virtual Memory: 55.19 MB used, 55.19 MB peak
+[2015.09.13-11.58.47:952][  0]LogMemory: Physical Memory: 4397.61 MB used, 16267.18 MB total
+[2015.09.13-11.58.47:952][  0]LogMemory: Virtual Memory: 351.56 MB used, 134217728.00 MB total
+[2015.09.13-11.58.47:984][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.09.13-11.58.48:744][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.09.13-11.58.48:744][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.09.13-11.58.48:756][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.09.13-11.58.48:756][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.09.13-11.58.48:757][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.13-11.58.48:757][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.13-11.58.48:757][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.13-11.58.48:761][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.13-11.58.48:762][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.13-11.58.48:773][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.13-11.58.48:792][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Data/Unreal Projects/PuppyGame/PuppySim/Intermediate/Shaders/WorkingDirectory/9500/).
+[2015.09.13-11.58.48:792][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Intermediate/Shaders/tmp/F0A9852545911644AD1E5ABA138ECDC3/'.
+[2015.09.13-11.58.48:792][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.13-11.58.49:941][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.13-11.58.49:946][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.13-11.58.49:951][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.13-11.58.49:956][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.13-11.58.49:962][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.13-11.58.49:965][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.13-11.58.49:968][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.13-11.58.49:971][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.13-11.58.49:976][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.13-11.58.49:981][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.13-11.58.49:985][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.13-11.58.49:988][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.13-11.58.49:989][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.13-11.58.50:007][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.13-11.58.50:010][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.13-11.58.50:013][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.13-11.58.50:017][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.13-11.58.50:017][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.13-11.58.50:105][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.13-11.58.50:148][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/pault_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.13-11.58.50:148][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/pault_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.13-11.58.50:148][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Data/Unreal Projects/PuppyGame/PuppySim/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.13-11.58.50:148][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.13-11.58.50:148][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Data/Unreal Projects/PuppyGame/PuppySim/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.13-11.58.50:148][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.13-11.58.50:284][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.13-11.58.50:296][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pault_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.13-11.58.50:457][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.13-11.58.50:460][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.13-11.58.50:578][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.13-11.58.50:578][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.13-11.58.50:856][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.13-11.58.51:584][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.13-11.58.51:685][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.09.13-11.58.51:863][  0]SourceControl: Info Source control is disabled
+[2015.09.13-11.58.52:116][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.13-11.58.52:194][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.13-11.58.52:194][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.09.13-11.58.52:251][  0]LogEngine: Initializing Engine...
+[2015.09.13-11.58.52:253][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.13-11.58.52:253][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.13-11.58.52:371][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.13-11.58.52:376][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.13-11.58.52:385][  0]LogInit: FAudioDevice initialized.
+[2015.09.13-11.58.52:406][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/pault_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.13-11.58.52:410][  0]LogInit: Texture streaming: Enabled
+[2015.09.13-11.58.52:415][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.13-11.58.52:415][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.13-11.58.52:415][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 537121804b7cf4be510b0681ba3e9dcc|b9d68997175147afad91b4c26e41b99d|9767a706-ec85-4912-88a3-1f6ddb1dec1c
+[2015.09.13-11.58.52:415][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.13-11.58.52:437][  0]LogInit: Transaction tracking system initialized
+[2015.09.13-11.58.52:467][  0]BlueprintLog: New page: Editor Load
+[2015.09.13-11.58.52:556][  0]LocalizationService: Info Localization service is disabled
+[2015.09.13-11.58.53:008][  0]LogConsoleResponse:Display: 
+[2015.09.13-11.58.53:127][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.13-11.58.53:206][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/' took 0.01s
+[2015.09.13-11.58.53:206][  0]Cmd: MAP LOAD FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Maps/LevelHouse.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.13-11.58.53:206][  0]LightingResults: New page: Lighting Build
+[2015.09.13-11.58.53:209][  0]MapCheck: New page: Map Check
+[2015.09.13-11.58.53:209][  0]LightingResults: New page: Lighting Build
+[2015.09.13-11.58.53:219][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F2C34A0400
+[2015.09.13-11.58.53:862][  0]LogAIModule: Creating AISystem for world LevelHouse
+[2015.09.13-11.58.53:872][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.13-11.58.53:872][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.13-11.58.53:919][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.046ms to complete.
+[2015.09.13-11.58.53:919][  0]LogFileHelpers: Loading map 'LevelHouse' took 0.713
+[2015.09.13-11.58.54:034][  0]LogCollectionManager: Loaded 0 collections in 0.003259 seconds
+[2015.09.13-11.58.54:080][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Collections/' took 0.01s
+[2015.09.13-11.58.54:080][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Developers/pault000/Collections/' took 0.01s
+[2015.09.13-11.58.54:080][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Collections/' took 0.01s
+[2015.09.13-11.58.54:080][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 1867 classes and 333 folders.
+[2015.09.13-11.58.54:086][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.09.13-11.58.54:093][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.13-11.58.54:137][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.13-11.58.54:141][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.09.13-11.58.54:218][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.13-11.58.54:222][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.13-11.58.54:244][  0]LogLoad: Full Startup: 7.19 seconds (BP compile: 0.16 seconds)
+[2015.09.13-11.58.54:334][  0]LogContentStreaming: Texture pool size now 700 MB
+[2015.09.13-11.58.54:478][  0]LogRenderer: Reallocating scene render targets to support 876x504 (Frame:2).
+[2015.09.13-11.58.54:643][  1]SourceControl: Info On branch master
+[2015.09.13-11.58.54:643][  1]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2015.09.13-11.58.54:643][  1]SourceControl: Info Changes to be committed:
+[2015.09.13-11.58.54:643][  1]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	modified:   PuppySim/Intermediate/CachedAssetRegistry.bin
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	modified:   PuppySim/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	modified:   PuppySim/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	modified:   PuppySim/Saved/AutoScreenshot.png
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-13-40-56.uasset
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-14-12-22.uasset
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-14-22-28.uasset
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-32-12.uasset
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-40-55.uasset
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-52-04.uasset
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-12-22.uasset
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-22-27.uasset
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-45-17.uasset
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-15-19-01.uasset
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-15-31-00.uasset
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-12-58-14.umap
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-12-19.umap
+[2015.09.13-11.58.54:643][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-22-24.umap
+[2015.09.13-11.58.54:644][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-45-14.umap
+[2015.09.13-11.58.54:644][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-15-19-14.umap
+[2015.09.13-11.58.54:644][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonGameMode_2015-09-12-12-58-15.uasset
+[2015.09.13-11.58.54:644][  1]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/Editor.ini
+[2015.09.13-11.58.54:644][  1]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.09.13-11.58.54:644][  1]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/Engine.ini
+[2015.09.13-11.58.54:644][  1]SourceControl: Info 	modified:   PuppySim/Saved/Logs/PuppySim.log
+[2015.09.13-11.58.54:644][  1]SourceControl: Info Changes not staged for commit:
+[2015.09.13-11.58.54:644][  1]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2015.09.13-11.58.54:644][  1]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.09.13-11.58.54:644][  1]SourceControl: Info 	modified:   PuppySim/Intermediate/CachedAssetRegistry.bin
+[2015.09.13-11.58.54:644][  1]SourceControl: Info 	modified:   PuppySim/Saved/AutoScreenshot.png
+[2015.09.13-11.58.54:644][  1]SourceControl: Info 	modified:   PuppySim/Saved/Autosaves/PackageRestoreData.json
+[2015.09.13-11.58.54:644][  1]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.09.13-11.58.54:644][  1]SourceControl: Info 	modified:   PuppySim/Saved/Logs/PuppySim.log
+[2015.09.13-11.58.54:787][  5]LogAssetRegistry: Asset discovery search completed in 3.1140 seconds
+[2015.09.13-11.58.54:787][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.13-11.58.54:787][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2015.09.13-11.58.59:199][162]LogAIModule: Creating AISystem for world Level1_v1
+[2015.09.13-11.58.59:220][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.13-11.58.59:249][162]Cmd: MAP LOAD FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/FirstPersonBP/Maps/Level1_v1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.13-11.58.59:249][162]LightingResults: New page: Lighting Build
+[2015.09.13-11.58.59:266][162]LoadErrors: New page: Loading map: Level1_v1.umap
+[2015.09.13-11.58.59:267][162]MapCheck: New page: Map Check
+[2015.09.13-11.58.59:267][162]LightingResults: New page: Lighting Build
+[2015.09.13-11.58.59:278][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F2D1DF49A0
+[2015.09.13-11.58.59:330][162]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.13-11.58.59:372][162]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.13-11.58.59:426][162]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.986ms to complete.
+[2015.09.13-11.58.59:427][162]LogFileHelpers: Loading map 'Level1_v1' took 0.178
+[2015.09.13-11.59.49:573][ 26]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:/Data/Savannah/Scenery/assets/export/gate2.obj)
+[2015.09.13-11.59.49:584][ 26]LogFbx: Loading FBX Scene from D:/Data/Savannah/Scenery/assets/export/gate2.obj
+[2015.09.13-11.59.49:626][ 26]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.13-11.59.54:514][ 26]LogFbx: Loading FBX Scene from D:/Data/Savannah/Scenery/assets/export/gate2.obj
+[2015.09.13-11.59.54:554][ 26]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.13-11.59.54:556][ 26]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/Gate'
+[2015.09.13-11.59.54:556][ 26]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/Gate'
+[2015.09.13-11.59.54:562][ 26]LogMaterial: Missing cached shader map for material Gate, compiling. 
+[2015.09.13-11.59.54:607][ 26]LogFbx:Warning: Triangulating static mesh default
+[2015.09.13-11.59.55:204][ 26]LogStaticMesh: Building static mesh gate2...
+[2015.09.13-11.59.55:383][ 26]LogStaticMesh: Built static mesh [0.179557.2s] /Game/Models/Scenery/Objects/gate2.gate2
+[2015.09.13-12.00.12:617][836]SourceControl: Info On branch master
+[2015.09.13-12.00.12:617][836]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2015.09.13-12.00.12:617][836]SourceControl: Info Changes to be committed:
+[2015.09.13-12.00.12:617][836]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	modified:   PuppySim/Intermediate/CachedAssetRegistry.bin
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	modified:   PuppySim/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	modified:   PuppySim/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	modified:   PuppySim/Saved/AutoScreenshot.png
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-13-40-56.uasset
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-14-12-22.uasset
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-14-22-28.uasset
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-32-12.uasset
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-40-55.uasset
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-52-04.uasset
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-12-22.uasset
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-22-27.uasset
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-45-17.uasset
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-15-19-01.uasset
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-15-31-00.uasset
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-12-58-14.umap
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-12-19.umap
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-22-24.umap
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-45-14.umap
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-15-19-14.umap
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonGameMode_2015-09-12-12-58-15.uasset
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/Editor.ini
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/Engine.ini
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	modified:   PuppySim/Saved/Logs/PuppySim.log
+[2015.09.13-12.00.12:617][836]SourceControl: Info Changes not staged for commit:
+[2015.09.13-12.00.12:617][836]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2015.09.13-12.00.12:617][836]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	modified:   PuppySim/Intermediate/CachedAssetRegistry.bin
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	modified:   PuppySim/Saved/AutoScreenshot.png
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	modified:   PuppySim/Saved/Autosaves/PackageRestoreData.json
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.09.13-12.00.12:617][836]SourceControl: Info 	modified:   PuppySim/Saved/Logs/PuppySim.log
+[2015.09.13-12.00.12:841][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/GateOb/Gate" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/Gate.uasset" SILENT=true
+[2015.09.13-12.00.12:855][836]LogSavePackage: Save=13.177691ms
+[2015.09.13-12.00.12:855][836]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Gate44F366DE435A97F4ED330EB9C60D0505.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/Gate.uasset'
+[2015.09.13-12.00.12:857][836]LogSavePackage: Total save time: 15.655510ms
+[2015.09.13-12.00.12:857][836]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/Gate.uasset
+[2015.09.13-12.00.12:925][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/GateOb/gate2" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate2.uasset" SILENT=true
+[2015.09.13-12.00.12:937][836]LogSavePackage: Save=11.120254ms
+[2015.09.13-12.00.12:937][836]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/gate202BCFF6140C5163BA76BE2AC7AED8FC0.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate2.uasset'
+[2015.09.13-12.00.12:938][836]LogSavePackage: Total save time: 12.472063ms
+[2015.09.13-12.00.12:938][836]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate2.uasset
+[2015.09.13-12.00.13:082][836]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.13-12.00.19:785][121]LogActorFactory: Actor Factory created gate2
+[2015.09.13-12.00.22:524][223]LogRenderer: Reallocating scene render targets to support 1144x748 (Frame:5432).
+[2015.09.13-12.00.27:144][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/GateOb/gate2" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate2.uasset" SILENT=true
+[2015.09.13-12.00.27:162][462]LogSavePackage: Save=10.814909ms
+[2015.09.13-12.00.27:162][462]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/gate24263FA6F4879815673B15E82D95D30CE.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate2.uasset'
+[2015.09.13-12.00.27:163][462]LogSavePackage: Total save time: 17.698407ms
+[2015.09.13-12.00.27:163][462]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate2.uasset
+[2015.09.13-12.00.30:390][644]LogEditorFactories: Performing atomic reimport of [D:/Data/Savannah/Scenery/assets/export/gate2.obj]
+[2015.09.13-12.00.30:438][644]LogFbx: Loading FBX Scene from D:/Data/Savannah/Scenery/assets/export/gate2.obj
+[2015.09.13-12.00.30:476][644]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.13-12.00.30:481][644]LogFbx:Warning: Triangulating static mesh default
+[2015.09.13-12.00.31:043][644]LogStaticMesh: Building static mesh gate2...
+[2015.09.13-12.00.31:159][644]LogStaticMesh: Built static mesh [0.115925.2s] /Game/Models/Scenery/Objects/GateOb/gate2.gate2
+[2015.09.13-12.00.31:174][644]LogEditorFactories: -- imported successfully
+[2015.09.13-12.00.31:841][670]LogActorFactory: Actor Factory created gate2
+[2015.09.13-12.00.33:074][736]LogActorFactory: Actor Factory created gate2
+[2015.09.13-12.00.37:980][  5]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.13-12.00.39:979][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.13-12.00.41:243][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor3)
+[2015.09.13-12.00.41:996][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (gate2)
+[2015.09.13-12.00.46:420][350]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.13-12.00.51:953][584]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.13-12.01.23:034][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.13-12.01.24:926][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.13-12.01.25:531][421]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.13-12.01.25:968][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (gate3)
+[2015.09.13-12.01.30:380][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (gate2)
+[2015.09.13-12.01.30:853][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.13-12.01.31:382][705]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (WallFloor2)
+[2015.09.13-12.01.31:911][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (gate3)
+[2015.09.13-12.01.36:235][967]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (gate2)
+[2015.09.13-12.02.08:611][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.13-12.02.09:158][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.13-12.05.01:239][681]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/Data/Savannah/Scenery/assets/export/textures/gate_diffuse.png)
+[2015.09.13-12.05.01:298][681]LogTexture:Display: Building textures: gate_diffuse (AutoDXT)
+[2015.09.13-12.05.01:859][681]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/Data/Savannah/Scenery/assets/export/textures/gate_diffuse_NRM.png)
+[2015.09.13-12.05.01:921][681]LogTexture:Display: Building textures: gate_diffuse_NRM (BC5)
+[2015.09.13-12.05.02:143][681]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/Data/Savannah/Scenery/assets/export/textures/gate_diffuse_SPEC.png)
+[2015.09.13-12.05.02:198][681]LogTexture:Display: Building textures: gate_diffuse_SPEC (AutoDXT)
+[2015.09.13-12.08.59:651][692]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.13-12.08.59:666][692]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F2C1E44540
+[2015.09.13-12.08.59:929][692]LogSavePackage: Save=239.382019ms
+[2015.09.13-12.08.59:929][692]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Level1_v1_Auto1AFB2F4D5440EDC2BCD2E63AFB693A590.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/FirstPersonBP/Maps/Level1_v1_Auto1.umap'
+[2015.09.13-12.08.59:929][692]LogSavePackage: Total save time: 257.098395ms
+[2015.09.13-12.08.59:929][692]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/FirstPersonBP/Maps/Level1_v1_Auto1.umap
+[2015.09.13-12.08.59:932][692]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Level1_v1' took 0.280
+[2015.09.13-12.08.59:932][692]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.280
+[2015.09.13-12.08.59:942][692]LogSavePackage: Save=2.389296ms
+[2015.09.13-12.08.59:942][692]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/gate2_Auto18BD8A8774A3E579D8C5F249E35EEC370.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/gate2_Auto1.uasset'
+[2015.09.13-12.08.59:942][692]LogSavePackage: Total save time: 3.010675ms
+[2015.09.13-12.08.59:942][692]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/gate2_Auto1.uasset
+[2015.09.13-12.08.59:947][692]LogSavePackage: Save=2.340116ms
+[2015.09.13-12.08.59:947][692]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Gate_Auto18154CD314411C8797F33F3A2A0B2F1D2.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/Gate_Auto1.uasset'
+[2015.09.13-12.08.59:948][692]LogSavePackage: Total save time: 2.922151ms
+[2015.09.13-12.08.59:948][692]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/Gate_Auto1.uasset
+[2015.09.13-12.08.59:950][692]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Scenery/Objects/GateOb/gate2] ([1] browsable assets)...
+[2015.09.13-12.08.59:979][692]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Scenery/Objects/GateOb/gate2.gate2]
+[2015.09.13-12.08.59:979][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Scenery/Objects/GateOb/gate2]
+[2015.09.13-12.09.00:015][692]LogSavePackage: Save=13.040842ms
+[2015.09.13-12.09.00:015][692]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/gate2_Auto1BAA71DEA4E6950D0EABB399B650B0B1E.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/GateOb/gate2_Auto1.uasset'
+[2015.09.13-12.09.00:016][692]LogSavePackage: Total save time: 35.986975ms
+[2015.09.13-12.09.00:016][692]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/GateOb/gate2_Auto1.uasset
+[2015.09.13-12.09.00:019][692]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Scenery/Objects/GateOb/gate_diffuse] ([1] browsable assets)...
+[2015.09.13-12.09.00:031][692]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Scenery/Objects/GateOb/gate_diffuse.gate_diffuse]
+[2015.09.13-12.09.00:031][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Scenery/Objects/GateOb/gate_diffuse]
+[2015.09.13-12.09.00:043][692]LogSavePackage: Save=11.094167ms
+[2015.09.13-12.09.00:043][692]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/gate_diffuse_Auto156F417A840F29F0295CE45950CA1E8C9.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/GateOb/gate_diffuse_Auto1.uasset'
+[2015.09.13-12.09.00:044][692]LogSavePackage: Total save time: 11.829730ms
+[2015.09.13-12.09.00:044][692]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/GateOb/gate_diffuse_Auto1.uasset
+[2015.09.13-12.09.00:046][692]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Scenery/Objects/GateOb/gate_diffuse_NRM] ([1] browsable assets)...
+[2015.09.13-12.09.00:057][692]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Scenery/Objects/GateOb/gate_diffuse_NRM.gate_diffuse_NRM]
+[2015.09.13-12.09.00:057][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Scenery/Objects/GateOb/gate_diffuse_NRM]
+[2015.09.13-12.09.00:070][692]LogSavePackage: Save=12.069215ms
+[2015.09.13-12.09.00:070][692]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/gate_diffuse_NRM_Auto1409F39D6415E27513D9688A289CD8250.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/GateOb/gate_diffuse_NRM_Auto1.uasset'
+[2015.09.13-12.09.00:071][692]LogSavePackage: Total save time: 12.705132ms
+[2015.09.13-12.09.00:071][692]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/GateOb/gate_diffuse_NRM_Auto1.uasset
+[2015.09.13-12.09.00:073][692]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Scenery/Objects/GateOb/gate_diffuse_SPEC] ([1] browsable assets)...
+[2015.09.13-12.09.00:082][692]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Scenery/Objects/GateOb/gate_diffuse_SPEC.gate_diffuse_SPEC]
+[2015.09.13-12.09.00:082][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Scenery/Objects/GateOb/gate_diffuse_SPEC]
+[2015.09.13-12.09.00:094][692]LogSavePackage: Save=11.092456ms
+[2015.09.13-12.09.00:094][692]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/gate_diffuse_SPEC_Auto1F9944F3E45AC8B945635DBB199E7667A.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/GateOb/gate_diffuse_SPEC_Auto1.uasset'
+[2015.09.13-12.09.00:094][692]LogSavePackage: Total save time: 11.750188ms
+[2015.09.13-12.09.00:094][692]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/GateOb/gate_diffuse_SPEC_Auto1.uasset
+[2015.09.13-12.09.00:094][692]LogFileHelpers: Auto-saving content packages took 0.159
+[2015.09.13-12.09.52:912][424]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/Data/Savannah/Scenery/assets/export/textures/Boxy1_diffuse.png)
+[2015.09.13-12.09.52:970][424]LogTexture:Display: Building textures: Boxy1_diffuse (AutoDXT)
+[2015.09.13-12.09.53:878][424]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/Data/Savannah/Scenery/assets/export/textures/Boxy1_diffuse_NRM.png)
+[2015.09.13-12.09.53:933][424]LogTexture:Display: Building textures: Boxy1_diffuse_NRM (BC5)
+[2015.09.13-12.09.54:133][424]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/Data/Savannah/Scenery/assets/export/textures/Boxy1_diffuse_SPEC.png)
+[2015.09.13-12.09.54:186][424]LogTexture:Display: Building textures: Boxy1_diffuse_SPEC (AutoDXT)
+[2015.09.13-12.10.23:353][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (gate2)
+[2015.09.13-12.10.25:666][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.13-12.10.46:751][882]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:/Data/Savannah/Scenery/assets/export/Boxes.obj)
+[2015.09.13-12.10.46:760][882]LogFbx: Loading FBX Scene from D:/Data/Savannah/Scenery/assets/export/Boxes.obj
+[2015.09.13-12.10.46:762][882]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.13-12.11.33:412][882]LogFbx: Loading FBX Scene from D:/Data/Savannah/Scenery/assets/export/Boxes.obj
+[2015.09.13-12.11.33:414][882]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.13-12.11.33:416][882]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/Box/Material'
+[2015.09.13-12.11.33:417][882]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/Box/Material'
+[2015.09.13-12.11.33:418][882]LogStreaming:Warning: Failed to read file 'C:\Users\pault_000\finaltextures\Boxy1_diffuse.png' error.
+[2015.09.13-12.11.33:418][882]LogStreaming:Warning: Failed to read file 'D:/Data/Savannah/Scenery/assets/export/' error.
+[2015.09.13-12.11.33:418][882]LogStreaming:Warning: Failed to read file 'D:/Data/Savannah/Scenery/assets/export/' error.
+[2015.09.13-12.11.33:418][882]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - C:\Users\pault_000\finaltextures\Boxy1_diffuse.png
+ - D:/Data/Savannah/Scenery/assets/export/
+ - D:/Data/Savannah/Scenery/assets/export/
+[2015.09.13-12.11.33:421][882]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.11.33:433][882]LogFbx:Warning: Triangulating static mesh default
+[2015.09.13-12.11.33:449][882]LogStaticMesh: Building static mesh Boxes...
+[2015.09.13-12.11.33:457][882]LogStaticMesh: Built static mesh [0.007994.2s] /Game/Models/Scenery/Objects/Box/Boxes.Boxes
+[2015.09.13-12.11.33:462][882]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.13-12.12.06:313][438]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.12.06:358][438]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.12.06:365][438]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.12.06:396][438]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2015.09.13-12.12.10:551][515]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.09.13-12.12.10:551][515]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.09.13-12.12.10:551][515]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.09.13-12.12.16:235][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.13-12.12.23:817][961]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.12.23:822][961]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.12.23:823][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.13-12.12.23:849][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2015.09.13-12.12.23:853][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.13-12.12.23:879][961]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.12.23:887][961]LogMaterial: 0.000034 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.12.23:888][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.13-12.12.23:916][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2015.09.13-12.12.23:921][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.13-12.12.23:925][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.13-12.12.23:953][961]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.12.23:962][961]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.12.23:963][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.09.13-12.12.23:990][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2015.09.13-12.12.23:994][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.13-12.12.23:998][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.13-12.12.24:002][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.09.13-12.12.27:635][ 16]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.09.13-12.12.27:635][ 16]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.09.13-12.12.27:636][ 16]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.09.13-12.12.38:689][419]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.12.38:711][419]LogMaterial: 0.000204 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.12.41:509][475]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.09.13-12.12.41:509][475]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.09.13-12.12.41:509][475]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.09.13-12.12.42:238][512]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.12.42:244][512]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.12.42:268][512]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.09.13-12.12.44:986][562]LogMaterialEditor: Applying material Material
+[2015.09.13-12.12.46:608][562]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.12.46:630][562]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.12.46:664][562]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.12.46:691][562]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.12.46:703][562]LogMaterial: 0.000951 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.12.54:635][740]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.13-12.12.54:635][740]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.12.54:635][740]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.09.13-12.12.54:669][741]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.12.54:675][741]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.12.54:703][741]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.13-12.12.57:192][790]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.12.57:222][790]LogMaterial: 0.000160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.12.57:256][790]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.13-12.12.57:637][796]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.09.13-12.12.57:637][796]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.12.57:637][796]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.09.13-12.13.00:450][844]LogMaterialEditor: Applying material Material
+[2015.09.13-12.13.02:555][844]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.13.02:578][844]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.13.02:620][844]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.13.02:651][844]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.13.02:662][844]LogMaterial: 0.000821 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.13.10:671][ 44]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
+[2015.09.13-12.13.10:671][ 44]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.13.10:671][ 44]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.13-12.13.11:823][100]LogActorFactory: Actor Factory created Boxes
+[2015.09.13-12.13.12:125][115]LogActorFactory: Actor Factory created Boxes
+[2015.09.13-12.13.15:663][305]LogRenderer: Reallocating scene render targets to support 1296x748 (Frame:19798).
+[2015.09.13-12.13.15:797][306]LogRenderer: Reallocating scene render targets to support 1536x864 (Frame:19800).
+[2015.09.13-12.13.20:800][427]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.13-12.13.24:644][516]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Boxes)
+[2015.09.13-12.13.52:837][225]LogEditorViewport: Clicking on Actor (LMB): windowRefl_C (window10)
+[2015.09.13-12.19.01:316][974]LogSavePackage: Save=252.810318ms
+[2015.09.13-12.19.01:316][974]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Level1_v1_Auto26910D157418C9721D0CBC0B1820956F9.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/FirstPersonBP/Maps/Level1_v1_Auto2.umap'
+[2015.09.13-12.19.01:317][974]LogSavePackage: Total save time: 270.786703ms
+[2015.09.13-12.19.01:317][974]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/FirstPersonBP/Maps/Level1_v1_Auto2.umap
+[2015.09.13-12.19.01:320][974]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Level1_v1' took 0.292
+[2015.09.13-12.19.01:320][974]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.292
+[2015.09.13-12.19.01:325][974]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Scenery/Objects/Box/Boxy1_diffuse] ([1] browsable assets)...
+[2015.09.13-12.19.01:335][974]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Scenery/Objects/Box/Boxy1_diffuse.Boxy1_diffuse]
+[2015.09.13-12.19.01:335][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Scenery/Objects/Box/Boxy1_diffuse]
+[2015.09.13-12.19.01:347][974]LogSavePackage: Save=11.049263ms
+[2015.09.13-12.19.01:347][974]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Boxy1_diffuse_Auto2005021FB4A9C25AB5702D2BB454F5D64.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/Box/Boxy1_diffuse_Auto2.uasset'
+[2015.09.13-12.19.01:348][974]LogSavePackage: Total save time: 11.722386ms
+[2015.09.13-12.19.01:348][974]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/Box/Boxy1_diffuse_Auto2.uasset
+[2015.09.13-12.19.01:350][974]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Scenery/Objects/Box/Boxy1_diffuse_NRM] ([1] browsable assets)...
+[2015.09.13-12.19.01:360][974]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Scenery/Objects/Box/Boxy1_diffuse_NRM.Boxy1_diffuse_NRM]
+[2015.09.13-12.19.01:360][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Scenery/Objects/Box/Boxy1_diffuse_NRM]
+[2015.09.13-12.19.01:374][974]LogSavePackage: Save=13.369706ms
+[2015.09.13-12.19.01:374][974]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Boxy1_diffuse_NRM_Auto2A521CCC746C7B8AD14EA07B00B6D0763.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/Box/Boxy1_diffuse_NRM_Auto2.uasset'
+[2015.09.13-12.19.01:375][974]LogSavePackage: Total save time: 14.031287ms
+[2015.09.13-12.19.01:375][974]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/Box/Boxy1_diffuse_NRM_Auto2.uasset
+[2015.09.13-12.19.01:377][974]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Scenery/Objects/Box/Boxy1_diffuse_SPEC] ([1] browsable assets)...
+[2015.09.13-12.19.01:386][974]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Scenery/Objects/Box/Boxy1_diffuse_SPEC.Boxy1_diffuse_SPEC]
+[2015.09.13-12.19.01:386][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Scenery/Objects/Box/Boxy1_diffuse_SPEC]
+[2015.09.13-12.19.01:555][974]LogSavePackage: Save=168.000793ms
+[2015.09.13-12.19.01:556][974]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Boxy1_diffuse_SPEC_Auto26344460F48A39D6F215F7ABAAC723238.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/Box/Boxy1_diffuse_SPEC_Auto2.uasset'
+[2015.09.13-12.19.01:556][974]LogSavePackage: Total save time: 169.289745ms
+[2015.09.13-12.19.01:556][974]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/Box/Boxy1_diffuse_SPEC_Auto2.uasset
+[2015.09.13-12.19.01:559][974]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Scenery/Objects/Box/Boxes] ([1] browsable assets)...
+[2015.09.13-12.19.01:573][974]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Scenery/Objects/Box/Boxes.Boxes]
+[2015.09.13-12.19.01:573][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Scenery/Objects/Box/Boxes]
+[2015.09.13-12.19.01:630][974]LogSavePackage: Save=55.842037ms
+[2015.09.13-12.19.01:630][974]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Boxes_Auto2D4C92CE24AD5244C4D7F84B3DAA355E2.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/Box/Boxes_Auto2.uasset'
+[2015.09.13-12.19.01:630][974]LogSavePackage: Total save time: 56.769185ms
+[2015.09.13-12.19.01:630][974]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/Box/Boxes_Auto2.uasset
+[2015.09.13-12.19.01:634][974]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Scenery/Objects/Box/Material] ([1] browsable assets)...
+[2015.09.13-12.19.01:650][974]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Scenery/Objects/Box/Material.Material]
+[2015.09.13-12.19.01:650][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Scenery/Objects/Box/Material]
+[2015.09.13-12.19.01:670][974]LogSavePackage: Save=18.004179ms
+[2015.09.13-12.19.01:670][974]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Material_Auto29BCC6BF24BEB0B51717C45B554BBB8F5.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/Box/Material_Auto2.uasset'
+[2015.09.13-12.19.01:670][974]LogSavePackage: Total save time: 18.658914ms
+[2015.09.13-12.19.01:670][974]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Models/Scenery/Objects/Box/Material_Auto2.uasset
+[2015.09.13-12.19.01:670][974]LogFileHelpers: Auto-saving content packages took 0.348
+[2015.09.13-12.21.25:706][539]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:/Data/Savannah/Scenery/NeedPaint/Boxes6.fbx)
+[2015.09.13-12.21.25:712][539]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.09.13-12.21.25:712][539]LogFbx: ItemName: NodeAttribute, ItemCount : 6
+[2015.09.13-12.21.25:712][539]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.09.13-12.21.25:712][539]LogFbx: ItemName: Model, ItemCount : 7
+[2015.09.13-12.21.25:712][539]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.09.13-12.21.25:712][539]LogFbx: ItemName: Deformer, ItemCount : 6
+[2015.09.13-12.21.25:712][539]LogFbx: ItemName: Material, ItemCount : 1
+[2015.09.13-12.21.25:712][539]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.09.13-12.21.25:712][539]LogFbx: ItemName: Video, ItemCount : 1
+[2015.09.13-12.21.25:717][539]LogFbx: Loading FBX Scene from D:/Data/Savannah/Scenery/NeedPaint/Boxes6.fbx
+[2015.09.13-12.21.25:728][539]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.13-12.21.33:398][539]LogFbx: Loading FBX Scene from D:/Data/Savannah/Scenery/NeedPaint/Boxes6.fbx
+[2015.09.13-12.21.33:406][539]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.13-12.21.33:408][539]LogFbx: =================================================
+[2015.09.13-12.21.33:408][539]LogFbx: Dumping Node START [Cube] 
+[2015.09.13-12.21.33:408][539]LogFbx: 	Total Deformer Count -610247056.
+[2015.09.13-12.21.33:408][539]LogFbx: 		[Node 1] BoxBones (Type Skin).
+[2015.09.13-12.21.33:408][539]LogFbx: =================================================
+[2015.09.13-12.21.33:408][539]LogFbx: 	Attribute (Cube.004) Type (4).
+[2015.09.13-12.21.33:408][539]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.09.13-12.21.33:409][539]LogFbx: Dumping Node END [Cube]
+[2015.09.13-12.21.33:409][539]LogFbx: =================================================
+[2015.09.13-12.21.33:409][539]LogFbx: Dumping Node START [Cube] 
+[2015.09.13-12.21.33:409][539]LogFbx: 	Total Deformer Count -610247056.
+[2015.09.13-12.21.33:409][539]LogFbx: 		[Node 1] BoxBones (Type Skin).
+[2015.09.13-12.21.33:409][539]LogFbx: =================================================
+[2015.09.13-12.21.33:409][539]LogFbx: 	Attribute (Cube.004) Type (4).
+[2015.09.13-12.21.33:409][539]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.09.13-12.21.33:409][539]LogFbx: Dumping Node END [Cube]
+[2015.09.13-12.21.33:410][539]LogFbx: Valid bind pose for Pose (Cube.004) - Cube
+[2015.09.13-12.21.33:411][539]LogFbx: Triangulating skeletal mesh Cube
+[2015.09.13-12.21.33:426][539]LogFbx:Warning: Bones digested - 10  Depth of hierarchy - 4
+[2015.09.13-12.21.33:427][539]LogSkeletalMesh: Chunk 0: 135 rigid vertices, 0 soft vertices, 5 active bones
+[2015.09.13-12.21.33:427][539]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 124 triangles
+[2015.09.13-12.21.33:428][539]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/Box/Boxes6_PhysicsAsset'
+[2015.09.13-12.21.33:429][539]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/Box/Boxes6_PhysicsAsset'
+[2015.09.13-12.21.33:429][539]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/Scenery/Objects/Box/Boxes6_PhysicsAsset.Boxes6_PhysicsAsset'
+[2015.09.13-12.21.33:430][539]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/Box/Boxes6_Skeleton'
+[2015.09.13-12.21.33:430][539]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/Box/Boxes6_Skeleton'
+[2015.09.13-12.21.33:430][539]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/Scenery/Objects/Box/Boxes6_Skeleton.Boxes6_Skeleton'
+[2015.09.13-12.21.33:433][539]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.13-12.21.33:433][539]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+Flap1_end  
+Flap2_end  
+Flap4_end  
+Flap3_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2015.09.13-12.21.33:478][540]LogMaterial:Warning: Material /Game/Models/Scenery/Objects/Box/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2015.09.13-12.21.33:569][540]LogMaterial:Warning: Material /Engine/Transient.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2015.09.13-12.21.33:573][540]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.21.33:587][540]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.21.33:589][540]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.21.33:609][540]LogMaterial: 0.000153 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.21.46:022][771]SourceControl: Info On branch master
+[2015.09.13-12.21.46:022][771]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2015.09.13-12.21.46:022][771]SourceControl: Info Changes to be committed:
+[2015.09.13-12.21.46:022][771]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/Objects/GateOb/Gate.uasset
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/Objects/GateOb/gate2.uasset
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	modified:   PuppySim/Intermediate/CachedAssetRegistry.bin
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	modified:   PuppySim/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	modified:   PuppySim/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	modified:   PuppySim/Saved/AutoScreenshot.png
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-13-40-56.uasset
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-14-12-22.uasset
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-14-22-28.uasset
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-32-12.uasset
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-40-55.uasset
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-52-04.uasset
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-12-22.uasset
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-22-27.uasset
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-45-17.uasset
+[2015.09.13-12.21.46:022][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-15-19-01.uasset
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-15-31-00.uasset
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-12-58-14.umap
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-12-19.umap
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-22-24.umap
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-45-14.umap
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-15-19-14.umap
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonGameMode_2015-09-12-12-58-15.uasset
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/Editor.ini
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/Engine.ini
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	modified:   PuppySim/Saved/Logs/PuppySim.log
+[2015.09.13-12.21.46:023][771]SourceControl: Info Changes not staged for commit:
+[2015.09.13-12.21.46:023][771]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2015.09.13-12.21.46:023][771]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/GateOb/gate2.uasset
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	modified:   PuppySim/Intermediate/CachedAssetRegistry.bin
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	modified:   PuppySim/Saved/AutoScreenshot.png
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	modified:   PuppySim/Saved/Autosaves/PackageRestoreData.json
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.09.13-12.21.46:023][771]SourceControl: Info 	modified:   PuppySim/Saved/Logs/PuppySim.log
+[2015.09.13-12.21.49:318][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Box/Box" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset" SILENT=true
+[2015.09.13-12.21.49:334][771]LogSavePackage: Save=14.919948ms
+[2015.09.13-12.21.49:334][771]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Box8E06E0394E8F95CB939A5D8B539F8567.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset'
+[2015.09.13-12.21.49:335][771]LogSavePackage: Total save time: 16.246956ms
+[2015.09.13-12.21.49:335][771]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset
+[2015.09.13-12.21.49:479][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F2DC4AF420
+[2015.09.13-12.21.49:495][771]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
+[2015.09.13-12.21.49:495][771]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.21.49:495][771]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.13-12.21.59:069][249]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.13-12.23.09:163][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Boxes)
+[2015.09.13-12.23.10:440][842]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Boxes6)
+[2015.09.13-12.23.13:789][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Boxes)
+[2015.09.13-12.23.29:439][837]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.23.29:452][837]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.23.29:455][837]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.23.29:471][837]LogMaterial: 0.000032 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.23.29:498][837]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.09.13-12.23.37:481][  9]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.23.37:500][  9]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.23.37:505][  9]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.23.37:527][  9]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.23.37:553][  9]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.13-12.23.40:175][ 60]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.23.40:245][ 60]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.23.43:415][155]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.23.43:494][155]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.23.44:445][170]LogMaterialEditor: Applying material Box
+[2015.09.13-12.23.46:696][170]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.23.46:742][170]LogMaterial: 0.000032 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.23.46:779][170]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.23.46:827][170]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.23.46:856][170]LogMaterial: 0.000979 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.24.07:409][545]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.24.07:486][545]LogMaterial: 0.000450 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.24.10:194][590]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.24.10:266][590]LogMaterial: 0.000151 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.24.10:298][590]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.13-12.24.15:716][695]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.24.15:791][695]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.24.18:780][760]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.24.18:799][760]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.24.20:010][809]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.24.20:031][809]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.24.20:979][825]LogMaterialEditor: Applying material Box
+[2015.09.13-12.24.23:640][825]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.24.23:681][825]LogMaterial: 0.000023 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.24.23:714][825]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.24.23:759][825]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.24.23:786][825]LogMaterial: 0.000833 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.24.27:225][898]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Boxes6)
+[2015.09.13-12.24.35:355][ 65]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Boxes6)
+[2015.09.13-12.24.41:823][202]Cmd: MODE SCALEGRID=0
+[2015.09.13-12.24.46:524][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.13-12.24.51:533][418]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2015.09.13-12.24.51:533][418]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.24.51:533][418]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.13-12.25.02:719][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/Level1_v1" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/FirstPersonBP/Maps/Level1_v1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.13-12.25.03:001][906]LogSavePackage: Save=252.638397ms
+[2015.09.13-12.25.03:001][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Level1_v1B6131A4C4428BDA01437C9B91D0AA2F1.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/FirstPersonBP/Maps/Level1_v1.umap'
+[2015.09.13-12.25.03:008][906]LogSavePackage: Total save time: 275.538351ms
+[2015.09.13-12.25.03:008][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/FirstPersonBP/Maps/Level1_v1.umap
+[2015.09.13-12.25.03:042][906]LogFileHelpers: Saving map 'Level1_v1' took 0.392
+[2015.09.13-12.25.03:047][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/gate2" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/gate2.uasset" SILENT=true
+[2015.09.13-12.25.03:050][906]LogSavePackage: Save=2.550093ms
+[2015.09.13-12.25.03:050][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/gate283DCDE8943C5E4B4A302D08ACF24790F.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/gate2.uasset'
+[2015.09.13-12.25.03:054][906]LogSavePackage: Total save time: 6.258268ms
+[2015.09.13-12.25.03:054][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/gate2.uasset
+[2015.09.13-12.25.03:126][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Gate" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Gate.uasset" SILENT=true
+[2015.09.13-12.25.03:130][906]LogSavePackage: Save=2.743392ms
+[2015.09.13-12.25.03:130][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/GateAB8AB7E44B61DBEFA7D4C78EE5F8819B.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Gate.uasset'
+[2015.09.13-12.25.03:134][906]LogSavePackage: Total save time: 7.107586ms
+[2015.09.13-12.25.03:134][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Gate.uasset
+[2015.09.13-12.25.03:188][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/GateOb/gate2" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate2.uasset" SILENT=true
+[2015.09.13-12.25.03:198][906]LogSavePackage: Save=4.593845ms
+[2015.09.13-12.25.03:198][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/gate21B4FAB2B42885AFD45585A90A1A04167.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate2.uasset'
+[2015.09.13-12.25.03:202][906]LogSavePackage: Total save time: 13.915818ms
+[2015.09.13-12.25.03:202][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate2.uasset
+[2015.09.13-12.25.03:232][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/GateOb/gate_diffuse" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate_diffuse.uasset" SILENT=true
+[2015.09.13-12.25.03:338][906]LogSavePackage: Save=105.373199ms
+[2015.09.13-12.25.03:338][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/gate_diffuse3D100A3343314E8E79F2E2BCF6EA80EC.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate_diffuse.uasset'
+[2015.09.13-12.25.03:342][906]LogSavePackage: Total save time: 109.368328ms
+[2015.09.13-12.25.03:342][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate_diffuse.uasset
+[2015.09.13-12.25.03:668][906]LogSavePackage: Save=191.775726ms
+[2015.09.13-12.25.03:669][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/gate_diffuse_NRM252217924F174493763D9BBB07BB6FCC.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate_diffuse_NRM.uasset'
+[2015.09.13-12.25.03:673][906]LogSavePackage: Total save time: 196.630009ms
+[2015.09.13-12.25.03:673][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate_diffuse_NRM.uasset
+[2015.09.13-12.25.03:960][906]LogSavePackage: Save=110.119720ms
+[2015.09.13-12.25.03:960][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/gate_diffuse_SPEC7F2EC7CD430DC919A62498907DC85B3F.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate_diffuse_SPEC.uasset'
+[2015.09.13-12.25.03:963][906]LogSavePackage: Total save time: 113.816775ms
+[2015.09.13-12.25.03:963][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/GateOb/gate_diffuse_SPEC.uasset
+[2015.09.13-12.25.04:090][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Box/Boxy1_diffuse" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxy1_diffuse.uasset" SILENT=true
+[2015.09.13-12.25.04:265][906]LogSavePackage: Save=173.760422ms
+[2015.09.13-12.25.04:265][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Boxy1_diffuseF4B1D2034B087AF4F8FB78AECF45E59C.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxy1_diffuse.uasset'
+[2015.09.13-12.25.04:270][906]LogSavePackage: Total save time: 178.887982ms
+[2015.09.13-12.25.04:270][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxy1_diffuse.uasset
+[2015.09.13-12.25.04:434][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Box/Boxy1_diffuse_NRM" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxy1_diffuse_NRM.uasset" SILENT=true
+[2015.09.13-12.25.04:662][906]LogSavePackage: Save=227.568970ms
+[2015.09.13-12.25.04:662][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Boxy1_diffuse_NRM4AF8BE4E4D4494E1E64C1EB244E1FFE7.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxy1_diffuse_NRM.uasset'
+[2015.09.13-12.25.04:666][906]LogSavePackage: Total save time: 231.241655ms
+[2015.09.13-12.25.04:666][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxy1_diffuse_NRM.uasset
+[2015.09.13-12.25.05:023][906]LogSavePackage: Save=145.747467ms
+[2015.09.13-12.25.05:023][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Boxy1_diffuse_SPECD3ED06244AA5F080FB750398245295DE.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxy1_diffuse_SPEC.uasset'
+[2015.09.13-12.25.05:025][906]LogSavePackage: Total save time: 148.313809ms
+[2015.09.13-12.25.05:025][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxy1_diffuse_SPEC.uasset
+[2015.09.13-12.25.05:222][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Box/Boxes" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxes.uasset" SILENT=true
+[2015.09.13-12.25.05:235][906]LogSavePackage: Save=12.344195ms
+[2015.09.13-12.25.05:235][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/BoxesFF4967D54C692938F4DFE48FEB1262FB.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxes.uasset'
+[2015.09.13-12.25.05:239][906]LogSavePackage: Total save time: 16.013455ms
+[2015.09.13-12.25.05:239][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxes.uasset
+[2015.09.13-12.25.05:311][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Box/Material" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Material.uasset" SILENT=true
+[2015.09.13-12.25.05:315][906]LogSavePackage: Save=2.816093ms
+[2015.09.13-12.25.05:315][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Material35E31D6C4DC52992B6DCD4AEF63434D6.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Material.uasset'
+[2015.09.13-12.25.05:316][906]LogSavePackage: Total save time: 4.560489ms
+[2015.09.13-12.25.05:316][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Material.uasset
+[2015.09.13-12.25.05:404][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Box/Boxes6" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxes6.uasset" SILENT=true
+[2015.09.13-12.25.05:420][906]LogSavePackage: Save=14.736485ms
+[2015.09.13-12.25.05:420][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Boxes627D0DBCD43CB46023DB0559AFB977545.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxes6.uasset'
+[2015.09.13-12.25.05:421][906]LogSavePackage: Total save time: 15.954442ms
+[2015.09.13-12.25.05:421][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxes6.uasset
+[2015.09.13-12.25.05:515][906]LogSavePackage: Save=4.008817ms
+[2015.09.13-12.25.05:515][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Boxes6_PhysicsAssetD373ED3D4CC7ADA2017009AF040F46B1.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxes6_PhysicsAsset.uasset'
+[2015.09.13-12.25.05:517][906]LogSavePackage: Total save time: 19.721206ms
+[2015.09.13-12.25.05:517][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxes6_PhysicsAsset.uasset
+[2015.09.13-12.25.05:595][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Box/Boxes6_Skeleton" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxes6_Skeleton.uasset" SILENT=true
+[2015.09.13-12.25.05:599][906]LogSavePackage: Save=3.064559ms
+[2015.09.13-12.25.05:599][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Boxes6_Skeleton6DDEEC0F4AAE5C65AC9EA4B57C56D20A.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxes6_Skeleton.uasset'
+[2015.09.13-12.25.05:600][906]LogSavePackage: Total save time: 4.336827ms
+[2015.09.13-12.25.05:600][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Boxes6_Skeleton.uasset
+[2015.09.13-12.25.05:696][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Box/Box" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset" SILENT=true
+[2015.09.13-12.25.05:717][906]LogSavePackage: Save=15.434841ms
+[2015.09.13-12.25.05:717][906]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/BoxA928479A4511B6ED12BA64A4A7B534A7.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset'
+[2015.09.13-12.25.05:718][906]LogSavePackage: Total save time: 21.297105ms
+[2015.09.13-12.25.05:718][906]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset
+[2015.09.13-12.26.30:319][ 30]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.26.30:331][ 30]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.26.33:182][ 91]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.26.33:259][ 91]LogMaterial: 0.000188 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.26.37:364][200]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.09.13-12.26.37:364][200]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.26.37:364][200]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.13-12.26.37:675][210]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.26.37:687][210]LogMaterial: 0.000163 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.26.41:430][300]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.26.41:497][300]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.26.44:886][393]LogMaterialEditor: Applying material Box
+[2015.09.13-12.26.45:619][393]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.26.45:649][393]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.26.45:668][393]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.26.45:715][393]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.26.45:745][393]LogMaterial: 0.001005 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.26.50:308][590]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.26.50:328][590]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.26.53:678][655]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.26.53:750][655]LogMaterial: 0.000212 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.26.56:958][760]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.26.56:978][760]LogMaterial: 0.000029 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.27.00:607][884]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2015.09.13-12.27.00:607][884]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.27.00:607][884]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.13-12.27.00:729][887]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.27.00:745][887]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.27.02:945][944]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.27.03:020][944]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.27.03:050][944]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.13-12.27.04:373][965]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.27.04:445][965]LogMaterial: 0.000208 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.27.04:475][965]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.13-12.27.05:871][ 12]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.27.05:890][ 12]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.27.06:938][ 52]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.27.06:957][ 52]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.27.10:520][191]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2015.09.13-12.27.10:520][191]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.27.10:520][191]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.13-12.27.14:277][381]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.27.14:293][381]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.27.14:319][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.13-12.27.19:768][514]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2015.09.13-12.27.19:768][514]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.27.19:768][514]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.13-12.27.29:317][886]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.27.29:332][886]LogMaterial: 0.000134 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.27.30:419][925]LogMaterialEditor: Applying material Box
+[2015.09.13-12.27.31:272][925]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.27.31:313][925]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.27.31:341][925]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.27.31:386][925]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.27.31:415][925]LogMaterial: 0.000898 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.27.42:914][227]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.09.13-12.27.42:914][227]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.27.42:914][227]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.13-12.27.56:364][867]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Boxes6)
+[2015.09.13-12.28.07:802][375]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.28.07:817][375]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.28.10:886][439]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.28.10:959][439]LogMaterial: 0.000234 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.28.12:019][457]LogMaterialEditor: Applying material Box
+[2015.09.13-12.28.12:989][457]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.28.13:037][457]LogMaterial: 0.000030 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.28.13:058][457]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.28.13:107][457]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.28.13:134][457]LogMaterial: 0.000874 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.28.19:485][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Box/Box" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset" SILENT=true
+[2015.09.13-12.28.19:618][507]LogSavePackage: Save=128.617828ms
+[2015.09.13-12.28.19:618][507]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Box2B0F19EF442BFBF5975A539994B6C68E.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset'
+[2015.09.13-12.28.19:620][507]LogSavePackage: Total save time: 132.958084ms
+[2015.09.13-12.28.19:620][507]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset
+[2015.09.13-12.28.19:627][507]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.09.13-12.28.19:627][507]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.28.19:627][507]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.13-12.28.26:935][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.13-12.28.33:811][133]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Boxes6)
+[2015.09.13-12.28.42:577][505]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.28.42:589][505]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.28.42:615][505]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.13-12.28.48:687][665]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.28.48:707][665]LogMaterial: 0.000032 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.28.48:827][670]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.09.13-12.28.48:827][670]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.28.48:827][670]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.13-12.28.59:502][115]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.28.59:515][115]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.29.02:386][214]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.09.13-12.29.02:386][214]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.29.02:386][214]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.13-12.29.04:501][292]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.29.04:514][292]LogMaterial: 0.000149 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.29.07:349][389]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.09.13-12.29.07:349][389]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.29.07:349][389]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.13-12.29.09:592][472]LogMaterialEditor: Applying material Box
+[2015.09.13-12.29.10:192][472]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.29.10:221][472]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.29.10:247][472]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.29.10:295][472]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.29.10:324][472]LogMaterial: 0.000944 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.29.11:864][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube21)
+[2015.09.13-12.29.17:390][734]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.09.13-12.29.17:390][734]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.29.17:390][734]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.13-12.29.50:301][184]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.29.50:314][184]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.29.53:559][296]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.09.13-12.29.53:559][296]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.29.53:559][296]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.13-12.30.01:353][641]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.30.01:369][641]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.30.04:431][761]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.09.13-12.30.04:431][761]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.30.04:431][761]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.13-12.30.04:582][769]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.30.04:595][769]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.30.04:624][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.09.13-12.30.07:649][890]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.09.13-12.30.07:649][890]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.30.07:649][890]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.13-12.30.08:316][912]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.30.08:330][912]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.30.11:306][ 15]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.09.13-12.30.11:306][ 15]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.30.11:306][ 15]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.13-12.30.14:804][142]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.30.14:818][142]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.30.17:848][254]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.09.13-12.30.17:848][254]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.30.17:848][254]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.13-12.30.22:120][436]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.30.22:133][436]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.30.23:607][495]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.30.23:627][495]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.30.26:196][602]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.30.26:218][602]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.30.27:575][649]LogMaterialEditor: Applying material Box
+[2015.09.13-12.30.28:526][649]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.30.28:573][649]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.30.28:599][649]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.30.28:649][649]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.30.28:680][649]LogMaterial: 0.001050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.30.36:963][928]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 75 instructions
+[2015.09.13-12.30.36:963][928]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.30.36:963][928]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.13-12.30.53:067][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Box/Box" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset" SILENT=true
+[2015.09.13-12.30.53:092][679]LogSavePackage: Save=19.670315ms
+[2015.09.13-12.30.53:093][679]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/BoxB71E21634050CD1589B0B886E0E0C2FF.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset'
+[2015.09.13-12.30.53:094][679]LogSavePackage: Total save time: 25.805417ms
+[2015.09.13-12.30.53:094][679]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset
+[2015.09.13-12.30.55:735][802]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.30.55:749][802]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.30.55:752][802]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.30.55:764][802]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.30.59:040][913]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.09.13-12.30.59:040][913]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.30.59:040][913]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.13-12.30.59:277][920]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.30.59:293][920]LogMaterial: 0.000135 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.31.00:785][968]LogMaterialEditor: Applying material Box
+[2015.09.13-12.31.01:625][968]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.31.01:674][968]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.31.01:697][968]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.31.01:744][968]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.31.01:772][968]LogMaterial: 0.000878 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.31.09:711][231]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 75 instructions
+[2015.09.13-12.31.09:711][231]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.31.09:711][231]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.13-12.31.22:485][729]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Boxes6)
+[2015.09.13-12.31.42:390][446]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.31.42:402][446]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.31.45:679][552]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2015.09.13-12.31.45:679][552]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.31.45:679][552]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.13-12.31.53:902][839]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.31.53:914][839]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.31.55:675][895]LogMaterialEditor: Applying material Box
+[2015.09.13-12.31.56:524][895]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.09.13-12.31.56:564][895]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.31.56:584][895]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.31.56:631][895]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2015.09.13-12.31.56:658][895]LogMaterial: 0.000913 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.13-12.32.00:774][ 39]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (WallFloor2)
+[2015.09.13-12.32.01:589][ 77]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Boxes6)
+[2015.09.13-12.32.02:560][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.13-12.32.03:270][125]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Boxes6)
+[2015.09.13-12.32.03:954][147]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 75 instructions
+[2015.09.13-12.32.03:954][147]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.13-12.32.03:954][147]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.13-12.32.05:022][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.13-12.32.28:561][314]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Boxes6)
+[2015.09.13-12.32.30:808][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Box/Box" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset" SILENT=true
+[2015.09.13-12.32.30:831][416]LogSavePackage: Save=19.661333ms
+[2015.09.13-12.32.30:831][416]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Box07BD836E499617AF3A7F019B9CE65DBB.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset'
+[2015.09.13-12.32.30:832][416]LogSavePackage: Total save time: 23.381911ms
+[2015.09.13-12.32.30:832][416]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Box/Box.uasset
+[2015.09.13-15.13.03:427][316]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.13-15.13.03:694][317]Cmd: QUIT_EDITOR
+[2015.09.13-15.13.03:978][317]LogExit: Preparing to exit.
+[2015.09.13-15.13.04:891][317]LogExit: Editor shut down
+[2015.09.13-15.13.04:891][317]LogExit: Transaction tracking system shut down
+[2015.09.13-15.13.04:892][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F2D9BD39C0
+[2015.09.13-15.13.04:892][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F2D9BD1800
+[2015.09.13-15.13.04:892][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F2CFF3F880
+[2015.09.13-15.13.04:892][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F2D8065300
+[2015.09.13-15.13.04:894][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F2D7DF6E80
+[2015.09.13-15.13.04:894][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F2D8065C60
+[2015.09.13-15.13.04:896][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F2D769EAC0
+[2015.09.13-15.13.05:060][317]LogExit: Object subsystem successfully closed.
+[2015.09.13-15.13.05:074][317]LogD3D11RHI: Shutdown
+[2015.09.13-15.13.05:074][317]LogD3D11RHI: CleanupD3DDevice
+[2015.09.13-15.13.05:141][317]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.13-15.13.05:155][317]LogModuleManager: Shutting down and abandoning module MaterialEditor (199)
+[2015.09.13-15.13.05:155][317]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (198)
+[2015.09.13-15.13.05:155][317]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.09.13-15.13.05:155][317]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.09.13-15.13.05:155][317]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.09.13-15.13.05:155][317]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.09.13-15.13.05:155][317]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.09.13-15.13.05:158][317]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.09.13-15.13.05:158][317]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.09.13-15.13.05:159][317]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.09.13-15.13.05:843][317]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.09.13-15.13.05:844][317]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.09.13-15.13.05:962][317]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.09.13-15.13.05:962][317]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.09.13-15.13.05:962][317]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.09.13-15.13.05:962][317]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.09.13-15.13.05:962][317]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.09.13-15.13.05:962][317]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.09.13-15.13.05:962][317]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.09.13-15.13.05:962][317]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.09.13-15.13.05:973][317]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.09.13-15.13.05:974][317]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.09.13-15.13.05:976][317]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.09.13-15.13.06:076][317]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.09.13-15.13.06:076][317]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.09.13-15.13.06:076][317]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.09.13-15.13.06:177][317]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.09.13-15.13.06:179][317]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.09.13-15.13.06:179][317]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.09.13-15.13.06:179][317]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.09.13-15.13.06:179][317]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.09.13-15.13.06:179][317]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.09.13-15.13.06:179][317]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.09.13-15.13.06:179][317]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.09.13-15.13.06:179][317]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.09.13-15.13.06:179][317]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.09.13-15.13.06:179][317]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.09.13-15.13.06:180][317]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.09.13-15.13.06:235][317]LogDerivedDataCache: Shutdown
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.09.13-15.13.06:235][317]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.09.13-15.13.08:237][317]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.09.13-15.13.08:237][317]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.09.13-15.13.08:237][317]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.09.13-15.13.08:237][317]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.09.13-15.13.08:237][317]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.09.13-15.13.08:237][317]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.09.13-15.13.08:240][317]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.09.13-15.13.08:240][317]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.09.13-15.13.08:240][317]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.09.13-15.13.08:240][317]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.13-15.13.08:240][317]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.13-15.13.08:240][317]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.13-15.13.08:240][317]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.13-15.13.08:240][317]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.13-15.13.08:240][317]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.13-15.13.08:240][317]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.13-15.13.08:241][317]LogExit: Exiting.
+[2015.09.13-15.13.08:260][317]Log file closed, 09/13/15 11:13:08

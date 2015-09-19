@@ -1,0 +1,786 @@
+﻿[2015.09.16-12.16.51:278][  0]Log file open, 09/16/15 08:16:51
+[2015.09.16-12.16.51:278][  0]LogInit:Display: Running engine for game: PuppySim
+[2015.09.16-12.16.51:278][  0]LogInit:Display: RandInit(1462708135) SRandInit(1462708136).
+[2015.09.16-12.16.51:278][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.16-12.16.51:278][  0]LogStats: Stats thread started at 0.075127
+[2015.09.16-12.16.51:278][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.16-12.16.51:278][  0]LogInit: API Version: 2672455
+[2015.09.16-12.16.51:278][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.16-12.16.51:278][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.16-12.16.51:278][  0]LogInit: Build Configuration: Development
+[2015.09.16-12.16.51:278][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.16-12.16.51:278][  0]LogInit: Command line:  
+[2015.09.16-12.16.51:278][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.16-12.16.51:278][  0]LogInit: Rocket: 1
+[2015.09.16-12.16.51:287][  0]LogInit: Using libcurl 7.41.0
+[2015.09.16-12.16.51:287][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.16-12.16.51:287][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.16-12.16.51:287][  0]LogInit:  - other features:
+[2015.09.16-12.16.51:287][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.16-12.16.51:287][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.16-12.16.51:287][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.16-12.16.51:287][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.16-12.16.51:287][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.16-12.16.51:287][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.16-12.16.51:287][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.16-12.16.51:287][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.16-12.16.51:288][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.16-12.16.51:288][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.16-12.16.51:295][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.16-12.16.51:301][  0]LogInit: Object subsystem initialized
+[2015.09.16-12.16.51:303][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.16-12.16.51:303][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.16-12.16.51:311][  0]LogInit: Computer: TSCHIRGIMACHINE
+[2015.09.16-12.16.51:311][  0]LogInit: User: pault000
+[2015.09.16-12.16.51:311][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.16-12.16.51:311][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.09.16-12.16.51:311][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.16-12.16.51:311][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.16-12.16.51:311][  0]LogMemory: Process Physical Memory: 52.74 MB used, 52.74 MB peak
+[2015.09.16-12.16.51:311][  0]LogMemory: Process Virtual Memory: 55.18 MB used, 55.18 MB peak
+[2015.09.16-12.16.51:311][  0]LogMemory: Physical Memory: 3479.18 MB used, 16267.18 MB total
+[2015.09.16-12.16.51:311][  0]LogMemory: Virtual Memory: 351.56 MB used, 134217728.00 MB total
+[2015.09.16-12.16.51:341][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.09.16-12.16.52:083][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.09.16-12.16.52:083][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.09.16-12.16.52:098][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.09.16-12.16.52:099][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.09.16-12.16.52:099][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.16-12.16.52:100][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.16-12.16.52:100][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.16-12.16.52:104][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.16-12.16.52:105][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.16-12.16.52:115][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.16-12.16.52:131][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (D:/Data/Unreal Projects/PuppyGame/PuppySim/Intermediate/Shaders/WorkingDirectory/11056/).
+[2015.09.16-12.16.52:131][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Intermediate/Shaders/tmp/5492F8E0462C84D1221C31828610C805/'.
+[2015.09.16-12.16.52:131][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.16-12.16.53:262][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.16-12.16.53:267][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.16-12.16.53:275][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.16-12.16.53:283][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.16-12.16.53:291][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.16-12.16.53:295][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.16-12.16.53:298][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.16-12.16.53:301][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.16-12.16.53:305][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.16-12.16.53:310][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.16-12.16.53:313][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.16-12.16.53:317][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.16-12.16.53:318][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.16-12.16.53:336][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.16-12.16.53:339][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.16-12.16.53:342][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.16-12.16.53:345][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.16-12.16.53:345][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.16-12.16.53:430][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.16-12.16.53:475][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/pault_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.16-12.16.53:475][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/pault_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.16-12.16.53:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Data/Unreal Projects/PuppyGame/PuppySim/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.16-12.16.53:475][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.16-12.16.53:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Data/Unreal Projects/PuppyGame/PuppySim/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.16-12.16.53:475][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.16-12.16.53:649][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.16-12.16.53:661][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pault_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.16-12.16.53:851][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.16-12.16.53:854][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.16-12.16.54:004][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.16-12.16.54:004][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.16-12.16.54:265][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.16-12.16.54:947][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.16-12.16.55:043][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.09.16-12.16.55:190][  0]SourceControl: Info Source control is disabled
+[2015.09.16-12.16.55:446][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.16-12.16.55:521][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.16-12.16.55:521][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.09.16-12.16.55:580][  0]LogEngine: Initializing Engine...
+[2015.09.16-12.16.55:582][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.16-12.16.55:583][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.16-12.16.55:712][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.16-12.16.55:717][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.16-12.16.55:861][  0]LogInit: FAudioDevice initialized.
+[2015.09.16-12.16.55:880][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/pault_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.16-12.16.55:885][  0]LogInit: Texture streaming: Enabled
+[2015.09.16-12.16.55:893][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.16-12.16.55:893][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.16-12.16.55:893][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 537121804b7cf4be510b0681ba3e9dcc|b9d68997175147afad91b4c26e41b99d|9767a706-ec85-4912-88a3-1f6ddb1dec1c
+[2015.09.16-12.16.55:893][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.16-12.16.55:919][  0]LogInit: Transaction tracking system initialized
+[2015.09.16-12.16.55:951][  0]BlueprintLog: New page: Editor Load
+[2015.09.16-12.16.56:049][  0]LocalizationService: Info Localization service is disabled
+[2015.09.16-12.16.56:506][  0]LogConsoleResponse:Display: 
+[2015.09.16-12.16.56:616][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.16-12.16.56:698][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/' took 0.01s
+[2015.09.16-12.16.56:699][  0]Cmd: MAP LOAD FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Maps/LevelHouse.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.16-12.16.56:699][  0]LightingResults: New page: Lighting Build
+[2015.09.16-12.16.56:702][  0]MapCheck: New page: Map Check
+[2015.09.16-12.16.56:702][  0]LightingResults: New page: Lighting Build
+[2015.09.16-12.16.56:714][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001E38AD0400
+[2015.09.16-12.16.57:112][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.09.16-12.16.57:112][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/DefaultShapes/Shape_Plane.uasset.
+[2015.09.16-12.16.57:112][  0]LoadErrors:Error: Error /Game/DefaultShapes/Shape_Plane : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2015.09.16-12.16.57:112][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.09.16-12.16.57:112][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/DefaultShapes/Shape_Plane.uasset.
+[2015.09.16-12.16.57:112][  0]LoadErrors:Error: Error /Game/DefaultShapes/Shape_Plane : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2015.09.16-12.16.57:159][  0]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/desk1'
+[2015.09.16-12.16.57:159][  0]LogLinker:Warning: Can't find file for asset '/Game/Models/Scenery/Objects/desk1' while loading D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Maps/LevelHouse.umap.
+[2015.09.16-12.16.57:159][  0]LoadErrors:Error: Error /Game/Maps/LevelHouse : Can't find file for asset. /Game/Models/Scenery/Objects/desk1
+[2015.09.16-12.16.57:169][  0]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/desk1'
+[2015.09.16-12.16.57:169][  0]LogLinker:Warning: Can't find file for asset '/Game/Models/Scenery/Objects/desk1' while loading D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Maps/LevelHouse.umap.
+[2015.09.16-12.16.57:169][  0]LoadErrors:Error: Error /Game/Maps/LevelHouse : Can't find file for asset. /Game/Models/Scenery/Objects/desk1
+[2015.09.16-12.16.57:170][  0]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/desk1'
+[2015.09.16-12.16.57:170][  0]LogLinker:Warning: Can't find file for asset '/Game/Models/Scenery/Objects/desk1' while loading NULL.
+[2015.09.16-12.16.57:170][  0]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/desk1'
+[2015.09.16-12.16.57:170][  0]LogLinker:Warning: Can't find file for asset '/Game/Models/Scenery/Objects/desk1' while loading NULL.
+[2015.09.16-12.16.57:195][  0]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/desk1'
+[2015.09.16-12.16.57:195][  0]LoadErrors: Info Failed to load /Game/Models/Scenery/Objects/desk1.desk1 Referenced by StaticMeshComponent0
+[2015.09.16-12.16.57:196][  0]LogLinker:Warning: Can't find file for asset '/Game/Models/Scenery/Objects/desk1' while loading NULL.
+[2015.09.16-12.16.57:196][  0]LoadErrors: Info Failed to load /Game/Models/Scenery/Objects/desk1.desk1 Referenced by StaticMeshComponent0
+[2015.09.16-12.16.57:197][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.09.16-12.16.57:197][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Plane
+[2015.09.16-12.16.57:197][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2015.09.16-12.16.57:197][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Plane
+[2015.09.16-12.16.57:369][  0]LogAIModule: Creating AISystem for world LevelHouse
+[2015.09.16-12.16.57:378][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.16-12.16.57:379][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.16-12.16.57:423][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.565ms to complete.
+[2015.09.16-12.16.57:423][  0]LogFileHelpers: Loading map 'LevelHouse' took 0.725
+[2015.09.16-12.16.57:533][  0]LogCollectionManager: Loaded 0 collections in 0.003226 seconds
+[2015.09.16-12.16.57:575][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Collections/' took 0.01s
+[2015.09.16-12.16.57:575][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Developers/pault000/Collections/' took 0.01s
+[2015.09.16-12.16.57:575][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Collections/' took 0.01s
+[2015.09.16-12.16.57:575][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 1867 classes and 333 folders.
+[2015.09.16-12.16.57:581][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.09.16-12.16.57:587][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.16-12.16.57:630][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.09.16-12.16.57:635][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.09.16-12.16.57:709][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.16-12.16.57:713][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.16-12.16.57:736][  0]LogLoad: Full Startup: 6.97 seconds (BP compile: 0.18 seconds)
+[2015.09.16-12.16.57:817][  0]LogContentStreaming: Texture pool size now 700 MB
+[2015.09.16-12.16.57:973][  0]LogRenderer: Reallocating scene render targets to support 896x448 (Frame:2).
+[2015.09.16-12.16.58:288][  5]LogAssetRegistry: Asset discovery search completed in 3.2562 seconds
+[2015.09.16-12.16.58:288][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.16-12.16.58:288][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info On branch master
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info Changes to be committed:
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	new file:   PuppySim/Content/InteractBlueprints/Cab1_Blueprint.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Puppy/Material.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Puppy/placeholderDoge.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/Curtains/windowandcurtains.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/Desk/Deskbo.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/Desk/None_002.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/Desk/desk.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/Objects/Table/Ktable.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/Objects/Table/None_003.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/Objects/Table/ktable_diffuse.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Anim_Cabbynet.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Anim_cab.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Cabby1.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Cabby1_Anim_CabinetBones1_IdleClosed.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Cabby1_Anim_CabinetBones1_Open.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Cabby1_PhysicsAsset.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Cabby1_Skeleton.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby2.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby2_PhysicsAsset.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby3.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby3_PhysicsAsset.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby4.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby4_PhysicsAsset.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby5.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby5_PhysicsAsset.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby6.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby6_PhysicsAsset.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby7.uasset
+[2015.09.16-12.16.59:285][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby7_PhysicsAsset.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby8.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby8_PhysicsAsset.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/Objects/Windows/None.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/Objects/Windows/window.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/Objects/Windows/windowC.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/desk1.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/kitche_chair.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/WallsFloor/Ceiling.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/WallsFloor/None.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_400x200.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_400x300.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_400x400.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_500x500.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Collapse01.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Collapse02.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Collapse_Cue.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Explosion01.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Explosion02.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Explosion_Cue.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Fire01.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Fire01_Cue.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Light01.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Light01_Cue.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Light02.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Light02_Cue.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Smoke01.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Starter_Birds01.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Starter_Music01.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Starter_Wind05.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Starter_Wind06.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Steam01.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Steam01_Cue.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Maps/Advanced_Lighting.umap
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Maps/Minimal_Default.umap
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Maps/StarterMap.umap
+[2015.09.16-12.16.59:286][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Glass.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Water_Lake.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2015.09.16-12.16.59:287][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/P_Explosion.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/P_Fire.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/P_Smoke.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/P_Sparks.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/MaterialSphere.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Bush.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Door.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Frame.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Rock.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Statue.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Bush.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Chair.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_CornerFrame.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Couch.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Door.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_DoorFrame.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_GlassWindow.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_PillarFrame.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Rock.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Shelf.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Stairs.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Statue.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_TableRound.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_WindowFrame.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Cone.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Cube.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Plane.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Torus.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Trim.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2015.09.16-12.16.59:288][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Tube.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Burst_M.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Bush_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Bush_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Chair_M.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Chair_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Door_M.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Door_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Frame_M.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Frame_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Lamp_M.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Lamp_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_MacroVariation.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2015.09.16-12.16.59:289][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Shelf_M.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Shelf_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Spark_Core.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Statue_M.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Statue_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_TableRound_M.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_TableRound_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Water_M.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Water_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info Changes not staged for commit:
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/FirstPersonBP/Maps/AustinLevel.umap
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/InteractBlueprints/Cab1_Blueprint.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/InteractBlueprints/Mirrir.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/InteractBlueprints/windowRefl.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/ChairObj/chairmat.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/Curtains/windowandcurtains.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/Fridge/Anim_Fridge2.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/Table/None_003.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Cab1_PhysicsAsset.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/Windows/None.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/Windows/windowC.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/counter/KitchenCounter2.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/WallsFloor/Ceiling.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/WallsFloor/celing.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/WallsFloor/wallsgrass.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/WallsFloor/window.uasset
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Intermediate/CachedAssetRegistry.bin
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Saved/AutoScreenshot.png
+[2015.09.16-12.16.59:290][ 47]SourceControl: Info 	modified:   PuppySim/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	modified:   PuppySim/Saved/Autosaves/PackageRestoreData.json
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-13-40-56.uasset
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-14-12-22.uasset
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-14-22-28.uasset
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-32-12.uasset
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-40-55.uasset
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-52-04.uasset
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-12-22.uasset
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-22-27.uasset
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-45-17.uasset
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-15-19-01.uasset
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-15-31-00.uasset
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-12-58-14.umap
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-12-19.umap
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-22-24.umap
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-45-14.umap
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-15-19-14.umap
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonGameMode_2015-09-12-12-58-15.uasset
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/Editor.ini
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/Engine.ini
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	modified:   PuppySim/Saved/Logs/PuppySim.log
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info Untracked files:
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2015.09.16-12.16.59:291][ 47]SourceControl: Info 	PuppySim/Content/DefaultShapes/
+[2015.09.16-12.17.08:683][549]MapCheck: New page: Map Check
+[2015.09.16-12.17.08:715][549]Cmd: MAP REBUILD ALLVISIBLE
+[2015.09.16-12.17.08:715][549]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.09.16-12.17.08:791][549]LightingResults: New page: Lighting Build - Sep 16, 2015, 4:17:08 AM
+[2015.09.16-12.17.20:614][549]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.09.16-12.17.20:614][549]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.09.16-12.17.20:614][549]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.09.16-12.17.20:614][549]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.09.16-12.17.20:614][549]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.09.16-12.17.20:777][549]LogEditorBuildUtils: Build time 0:00:12
+[2015.09.16-12.17.20:888][551]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-12.17.23:396][658]Job is a success!
+[2015.09.16-12.17.23:545][659]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.09.16-12.17.23:610][659]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.09.16-12.17.23:614][659]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.09.16-12.17.23:615][659]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.09.16-12.17.23:618][659]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.09.16-12.17.23:620][659]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.09.16-12.17.23:628][659]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2015.09.16-12.17.23:633][659]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.09.16-12.17.23:655][659]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.09.16-12.17.23:679][659]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.09.16-12.17.23:693][659]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.09.16-12.17.23:760][659]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.09.16-12.17.23:906][659]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.09.16-12.17.23:912][659]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.09.16-12.17.23:915][659]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.09.16-12.17.23:916][659]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2015.09.16-12.17.23:970][659]Lightmass on TSCHIRGIMACHINE: 2.55 sec total, 255 ms importing, 11 ms setup, 318 ms photons, 1.94 sec processing, 0 ms extra exporting [5/5 mappings]. Threads: 13.4 sec total, 3.22 sec processing.
+[2015.09.16-12.17.23:978][659]LogStaticLightingSystem: Illumination: 15.1 sec (402 ms encoding lightmaps)
+[2015.09.16-12.17.23:978][659]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 8 textures
+[2015.09.16-12.17.23:978][659]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.09.16-12.17.24:607][660]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.09.16-12.17.24:607][660]MapCheck: New page: LevelHouse - Sep 16, 2015, 4:17:24 AM
+[2015.09.16-12.17.24:643][660]MapCheck:Error: Error desk1_16 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2015.09.16-12.17.24:643][660]MapCheck:Warning: Warning desk1_16 Static mesh actor has NULL StaticMesh property 
+[2015.09.16-12.17.24:643][660]MapCheck:Warning: Warning desk1_16 Static mesh actor has NULL StaticMesh property 
+[2015.09.16-12.17.24:643][660]MapCheck:Error: Error levelpuppyv3_with_assets_7 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2015.09.16-12.17.24:643][660]MapCheck:Warning: Warning levelpuppyv3_with_assets_7 Static mesh actor has NULL StaticMesh property 
+[2015.09.16-12.17.24:644][660]MapCheck:Warning: Warning levelpuppyv3_with_assets_7 Static mesh actor has NULL StaticMesh property 
+[2015.09.16-12.17.24:686][660]MapCheck: Info Map check complete: 2 Error(s), 4 Warning(s), took 79.173ms to complete.
+[2015.09.16-12.26.59:688][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelHouse" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Maps/LevelHouse_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.09.16-12.26.59:920][605]LogSavePackage: Save=187.296921ms
+[2015.09.16-12.26.59:920][605]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/LevelHouse_Auto1F68793844D521629FAFED4A85C6562B0.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Maps/LevelHouse_Auto1.umap'
+[2015.09.16-12.26.59:920][605]LogSavePackage: Total save time: 228.954997ms
+[2015.09.16-12.26.59:920][605]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Autosaves/Game/Maps/LevelHouse_Auto1.umap
+[2015.09.16-12.26.59:923][605]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/LevelHouse' took 0.251
+[2015.09.16-12.26.59:923][605]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.251
+[2015.09.16-14.27.07:792][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelHouse" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Maps/LevelHouse.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.16-14.27.08:039][264]LogSavePackage: Save=219.340088ms
+[2015.09.16-14.27.08:039][264]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/LevelHouseBD615DD24413BDE5108314984825D392.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Maps/LevelHouse.umap'
+[2015.09.16-14.27.08:040][264]LogSavePackage: Total save time: 233.266164ms
+[2015.09.16-14.27.08:040][264]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Maps/LevelHouse.umap
+[2015.09.16-14.27.08:073][264]LogFileHelpers: Saving map 'LevelHouse' took 0.327
+[2015.09.16-14.27.08:176][264]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.16-14.27.08:447][265]Cmd: QUIT_EDITOR
+[2015.09.16-14.27.08:702][265]LogExit: Preparing to exit.
+[2015.09.16-14.27.09:108][265]LogExit: Editor shut down
+[2015.09.16-14.27.09:108][265]LogExit: Transaction tracking system shut down
+[2015.09.16-14.27.09:111][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001E46FA3A60
+[2015.09.16-14.27.09:111][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001E4D18B880
+[2015.09.16-14.27.09:112][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001E4D433C40
+[2015.09.16-14.27.09:254][265]LogExit: Object subsystem successfully closed.
+[2015.09.16-14.27.09:265][265]LogD3D11RHI: Shutdown
+[2015.09.16-14.27.09:265][265]LogD3D11RHI: CleanupD3DDevice
+[2015.09.16-14.27.09:305][265]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.16-14.27.09:320][265]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.09.16-14.27.09:320][265]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.09.16-14.27.09:320][265]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.09.16-14.27.09:320][265]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.09.16-14.27.09:320][265]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.09.16-14.27.09:323][265]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.09.16-14.27.09:324][265]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.09.16-14.27.09:324][265]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.09.16-14.27.09:324][265]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.09.16-14.27.09:324][265]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.09.16-14.27.09:324][265]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.09.16-14.27.09:324][265]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.09.16-14.27.09:703][265]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.09.16-14.27.09:704][265]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.09.16-14.27.09:861][265]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.09.16-14.27.09:861][265]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.09.16-14.27.09:861][265]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.09.16-14.27.09:861][265]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.09.16-14.27.09:861][265]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.09.16-14.27.09:861][265]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.09.16-14.27.09:861][265]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.09.16-14.27.09:861][265]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.09.16-14.27.09:871][265]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.09.16-14.27.09:872][265]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.09.16-14.27.09:874][265]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.09.16-14.27.09:932][265]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.09.16-14.27.09:933][265]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.09.16-14.27.09:933][265]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.09.16-14.27.10:034][265]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.09.16-14.27.10:034][265]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.09.16-14.27.10:034][265]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.09.16-14.27.10:036][265]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.09.16-14.27.10:038][265]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.09.16-14.27.10:038][265]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.09.16-14.27.10:038][265]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.09.16-14.27.10:038][265]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.09.16-14.27.10:038][265]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.09.16-14.27.10:038][265]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.09.16-14.27.10:038][265]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.09.16-14.27.10:038][265]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.09.16-14.27.10:038][265]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.09.16-14.27.10:038][265]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.09.16-14.27.10:039][265]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.09.16-14.27.10:108][265]LogDerivedDataCache: Shutdown
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.09.16-14.27.10:108][265]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.09.16-14.27.12:111][265]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.09.16-14.27.12:111][265]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.09.16-14.27.12:111][265]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.09.16-14.27.12:111][265]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.09.16-14.27.12:111][265]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.09.16-14.27.12:111][265]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.09.16-14.27.12:112][265]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.09.16-14.27.12:112][265]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.09.16-14.27.12:112][265]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.09.16-14.27.12:112][265]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.16-14.27.12:112][265]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.16-14.27.12:112][265]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.16-14.27.12:112][265]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.16-14.27.12:112][265]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.16-14.27.12:112][265]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.16-14.27.12:112][265]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.16-14.27.12:113][265]LogExit: Exiting.
+[2015.09.16-14.27.12:129][265]Log file closed, 09/16/15 10:27:12

@@ -1,0 +1,1272 @@
+﻿[2015.09.16-05.47.51:522][  0]Log file open, 09/16/15 01:47:51
+[2015.09.16-05.47.51:522][  0]LogInit:Display: Running engine for game: PuppySim
+[2015.09.16-05.47.51:522][  0]LogInit:Display: RandInit(-1574279150) SRandInit(-1574279150).
+[2015.09.16-05.47.51:522][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.16-05.47.51:522][  0]LogStats: Stats thread started at 0.076516
+[2015.09.16-05.47.51:522][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.16-05.47.51:522][  0]LogInit: API Version: 2672455
+[2015.09.16-05.47.51:522][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.16-05.47.51:522][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.16-05.47.51:522][  0]LogInit: Build Configuration: Development
+[2015.09.16-05.47.51:522][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.16-05.47.51:522][  0]LogInit: Command line:  
+[2015.09.16-05.47.51:522][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.16-05.47.51:522][  0]LogInit: Rocket: 1
+[2015.09.16-05.47.51:650][  0]LogInit: Using libcurl 7.41.0
+[2015.09.16-05.47.51:650][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.16-05.47.51:651][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.16-05.47.51:651][  0]LogInit:  - other features:
+[2015.09.16-05.47.51:651][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.16-05.47.51:651][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.16-05.47.51:651][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.16-05.47.51:651][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.16-05.47.51:651][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.16-05.47.51:651][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.16-05.47.51:651][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.16-05.47.51:651][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.16-05.47.51:651][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.16-05.47.51:651][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.16-05.47.51:662][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.16-05.47.51:672][  0]LogInit: Object subsystem initialized
+[2015.09.16-05.47.51:675][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.16-05.47.51:675][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.16-05.47.51:684][  0]LogInit: Computer: TSCHIRGIMACHINE
+[2015.09.16-05.47.51:684][  0]LogInit: User: pault000
+[2015.09.16-05.47.51:684][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.16-05.47.51:684][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.09.16-05.47.51:685][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.16-05.47.51:685][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.16-05.47.51:685][  0]LogMemory: Process Physical Memory: 53.20 MB used, 53.20 MB peak
+[2015.09.16-05.47.51:685][  0]LogMemory: Process Virtual Memory: 55.19 MB used, 55.19 MB peak
+[2015.09.16-05.47.51:685][  0]LogMemory: Physical Memory: 3744.16 MB used, 16267.18 MB total
+[2015.09.16-05.47.51:685][  0]LogMemory: Virtual Memory: 351.56 MB used, 134217728.00 MB total
+[2015.09.16-05.47.51:718][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.09.16-05.47.52:453][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.09.16-05.47.52:453][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.09.16-05.47.52:468][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.09.16-05.47.52:468][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.09.16-05.47.52:469][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.16-05.47.52:469][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.16-05.47.52:469][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.16-05.47.52:473][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.16-05.47.52:473][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.16-05.47.52:486][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.16-05.47.52:502][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (D:/Data/Unreal Projects/PuppyGame/PuppySim/Intermediate/Shaders/WorkingDirectory/12000/).
+[2015.09.16-05.47.52:502][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Intermediate/Shaders/tmp/0F5832B743F56E52925A84A7798186FA/'.
+[2015.09.16-05.47.52:502][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.16-05.47.53:688][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.16-05.47.53:696][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.16-05.47.53:703][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.16-05.47.53:708][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.16-05.47.53:714][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.16-05.47.53:719][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.16-05.47.53:722][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.16-05.47.53:726][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.16-05.47.53:729][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.16-05.47.53:734][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.16-05.47.53:739][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.16-05.47.53:745][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.16-05.47.53:745][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.16-05.47.53:764][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.16-05.47.53:767][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.16-05.47.53:771][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.16-05.47.53:774][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.16-05.47.53:774][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.16-05.47.53:866][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.16-05.47.53:912][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/pault_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.16-05.47.53:912][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/pault_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.16-05.47.53:912][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Data/Unreal Projects/PuppyGame/PuppySim/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.16-05.47.53:912][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.16-05.47.53:912][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Data/Unreal Projects/PuppyGame/PuppySim/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.16-05.47.53:912][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.16-05.47.54:075][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.16-05.47.54:087][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pault_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.16-05.47.54:260][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.16-05.47.54:263][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.16-05.47.54:384][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.16-05.47.54:384][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.16-05.47.54:647][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.16-05.47.55:328][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.16-05.47.55:421][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.09.16-05.47.55:572][  0]SourceControl: Info Source control is disabled
+[2015.09.16-05.47.55:829][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.16-05.47.55:902][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.16-05.47.55:902][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.09.16-05.47.55:954][  0]LogEngine: Initializing Engine...
+[2015.09.16-05.47.55:956][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.16-05.47.55:956][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.16-05.47.56:066][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.16-05.47.56:071][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.16-05.47.56:211][  0]LogInit: FAudioDevice initialized.
+[2015.09.16-05.47.56:233][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/pault_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.16-05.47.56:238][  0]LogInit: Texture streaming: Enabled
+[2015.09.16-05.47.56:244][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.16-05.47.56:244][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.16-05.47.56:244][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 537121804b7cf4be510b0681ba3e9dcc|b9d68997175147afad91b4c26e41b99d|9767a706-ec85-4912-88a3-1f6ddb1dec1c
+[2015.09.16-05.47.56:245][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.16-05.47.56:268][  0]LogInit: Transaction tracking system initialized
+[2015.09.16-05.47.56:299][  0]BlueprintLog: New page: Editor Load
+[2015.09.16-05.47.56:390][  0]LocalizationService: Info Localization service is disabled
+[2015.09.16-05.47.56:856][  0]LogConsoleResponse:Display: 
+[2015.09.16-05.47.56:952][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.16-05.47.57:040][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/' took 0.01s
+[2015.09.16-05.47.57:041][  0]Cmd: MAP LOAD FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Maps/LevelHouse.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.16-05.47.57:041][  0]LightingResults: New page: Lighting Build
+[2015.09.16-05.47.57:044][  0]MapCheck: New page: Map Check
+[2015.09.16-05.47.57:044][  0]LightingResults: New page: Lighting Build
+[2015.09.16-05.47.57:054][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FD3C18400
+[2015.09.16-05.47.57:501][  0]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/desk1'
+[2015.09.16-05.47.57:501][  0]LogLinker:Warning: Can't find file for asset '/Game/Models/Scenery/Objects/desk1' while loading D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Maps/LevelHouse.umap.
+[2015.09.16-05.47.57:501][  0]LoadErrors:Error: Error /Game/Maps/LevelHouse : Can't find file for asset. /Game/Models/Scenery/Objects/desk1
+[2015.09.16-05.47.57:512][  0]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/desk1'
+[2015.09.16-05.47.57:512][  0]LogLinker:Warning: Can't find file for asset '/Game/Models/Scenery/Objects/desk1' while loading D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Maps/LevelHouse.umap.
+[2015.09.16-05.47.57:512][  0]LoadErrors:Error: Error /Game/Maps/LevelHouse : Can't find file for asset. /Game/Models/Scenery/Objects/desk1
+[2015.09.16-05.47.57:514][  0]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/desk1'
+[2015.09.16-05.47.57:514][  0]LogLinker:Warning: Can't find file for asset '/Game/Models/Scenery/Objects/desk1' while loading NULL.
+[2015.09.16-05.47.57:514][  0]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/desk1'
+[2015.09.16-05.47.57:514][  0]LogLinker:Warning: Can't find file for asset '/Game/Models/Scenery/Objects/desk1' while loading NULL.
+[2015.09.16-05.47.57:540][  0]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/desk1'
+[2015.09.16-05.47.57:541][  0]LoadErrors: Info Failed to load /Game/Models/Scenery/Objects/desk1.desk1 Referenced by StaticMeshComponent0
+[2015.09.16-05.47.57:541][  0]LogLinker:Warning: Can't find file for asset '/Game/Models/Scenery/Objects/desk1' while loading NULL.
+[2015.09.16-05.47.57:541][  0]LoadErrors: Info Failed to load /Game/Models/Scenery/Objects/desk1.desk1 Referenced by StaticMeshComponent0
+[2015.09.16-05.47.57:720][  0]LogAIModule: Creating AISystem for world LevelHouse
+[2015.09.16-05.47.57:728][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.16-05.47.57:728][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.16-05.47.57:774][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.92ms to complete.
+[2015.09.16-05.47.57:774][  0]LogFileHelpers: Loading map 'LevelHouse' took 0.734
+[2015.09.16-05.47.57:866][  0]LogCollectionManager: Loaded 0 collections in 0.002233 seconds
+[2015.09.16-05.47.57:907][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Collections/' took 0.01s
+[2015.09.16-05.47.57:907][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Developers/pault000/Collections/' took 0.01s
+[2015.09.16-05.47.57:907][  0]LogFileCache: Scanning file cache for directory 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Collections/' took 0.01s
+[2015.09.16-05.47.57:907][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 1867 classes and 333 folders.
+[2015.09.16-05.47.57:912][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.09.16-05.47.57:921][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.09.16-05.47.57:969][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.09.16-05.47.57:975][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.09.16-05.47.58:050][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.16-05.47.58:055][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.16-05.47.58:078][  0]LogLoad: Full Startup: 7.10 seconds (BP compile: 0.18 seconds)
+[2015.09.16-05.47.58:168][  0]LogContentStreaming: Texture pool size now 700 MB
+[2015.09.16-05.47.58:330][  0]LogRenderer: Reallocating scene render targets to support 896x448 (Frame:2).
+[2015.09.16-05.47.58:484][  1]SourceControl: Info On branch master
+[2015.09.16-05.47.58:484][  1]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2015.09.16-05.47.58:484][  1]SourceControl: Info Changes to be committed:
+[2015.09.16-05.47.58:484][  1]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2015.09.16-05.47.58:484][  1]SourceControl: Info 	new file:   PuppySim/Content/InteractBlueprints/Cab1_Blueprint.uasset
+[2015.09.16-05.47.58:484][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Puppy/Material.uasset
+[2015.09.16-05.47.58:484][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Puppy/placeholderDoge.uasset
+[2015.09.16-05.47.58:484][  1]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/Curtains/windowandcurtains.uasset
+[2015.09.16-05.47.58:484][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/Desk/Deskbo.uasset
+[2015.09.16-05.47.58:484][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/Desk/None_002.uasset
+[2015.09.16-05.47.58:484][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/Desk/desk.uasset
+[2015.09.16-05.47.58:484][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Anim_Cabbynet.uasset
+[2015.09.16-05.47.58:484][  1]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Anim_cab.uasset
+[2015.09.16-05.47.58:484][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Cabby1.uasset
+[2015.09.16-05.47.58:484][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Cabby1_Anim_CabinetBones1_IdleClosed.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Cabby1_Anim_CabinetBones1_Open.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Cabby1_PhysicsAsset.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Cabby1_Skeleton.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby2.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby2_PhysicsAsset.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby3.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby3_PhysicsAsset.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby4.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby4_PhysicsAsset.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby5.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby5_PhysicsAsset.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby6.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby6_PhysicsAsset.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby7.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby7_PhysicsAsset.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby8.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/OtherCabby/Cabby8_PhysicsAsset.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/Objects/Windows/None.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/Objects/Windows/window.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/Objects/Windows/windowC.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/desk1.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/Models/Scenery/Objects/kitche_chair.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	new file:   PuppySim/Content/Models/Scenery/WallsFloor/Ceiling.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/WallsFloor/None.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_400x200.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_400x300.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_400x400.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_500x500.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2015.09.16-05.47.58:485][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Collapse01.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Collapse02.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Collapse_Cue.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Explosion01.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Explosion02.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Explosion_Cue.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Fire01.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Fire01_Cue.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Light01.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Light01_Cue.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Light02.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Light02_Cue.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Smoke01.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Starter_Birds01.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Starter_Music01.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Starter_Wind05.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Starter_Wind06.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Steam01.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Audio/Steam01_Cue.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2015.09.16-05.47.58:486][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Maps/Advanced_Lighting.umap
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Maps/Minimal_Default.umap
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Maps/StarterMap.umap
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Glass.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2015.09.16-05.47.58:487][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Water_Lake.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/P_Explosion.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/P_Fire.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/P_Smoke.uasset
+[2015.09.16-05.47.58:488][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/P_Sparks.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/MaterialSphere.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Bush.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Door.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Frame.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Rock.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_Statue.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Bush.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Chair.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_CornerFrame.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Couch.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Door.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_DoorFrame.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_GlassWindow.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_PillarFrame.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Rock.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Shelf.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Stairs.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_Statue.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_TableRound.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Props/SM_WindowFrame.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Cone.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Cube.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2015.09.16-05.47.58:489][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Plane.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Torus.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Trim.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Tube.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Burst_M.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Bush_D.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Bush_N.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Chair_M.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Chair_N.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2015.09.16-05.47.58:490][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Door_M.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Door_N.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Frame_M.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Frame_N.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Lamp_M.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Lamp_N.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_MacroVariation.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2015.09.16-05.47.58:491][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Shelf_M.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Shelf_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Spark_Core.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Statue_M.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Statue_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_TableRound_M.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_TableRound_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Water_M.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Water_N.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2015.09.16-05.47.58:492][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	deleted:    PuppySim/Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info Changes not staged for commit:
+[2015.09.16-05.47.58:493][  1]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2015.09.16-05.47.58:493][  1]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/FirstPersonBP/Maps/AustinLevel.umap
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/InteractBlueprints/Cab1_Blueprint.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/InteractBlueprints/Mirrir.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/InteractBlueprints/windowRefl.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/Curtains/windowandcurtains.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/Fridge/Anim_Fridge2.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/TonsOfCabinets/Cab1_PhysicsAsset.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/Windows/None.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/Windows/windowC.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/Objects/counter/KitchenCounter2.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/WallsFloor/Ceiling.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/WallsFloor/celing.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/WallsFloor/wallsgrass.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Content/Models/Scenery/WallsFloor/window.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Intermediate/CachedAssetRegistry.bin
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Saved/AutoScreenshot.png
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	modified:   PuppySim/Saved/Autosaves/PackageRestoreData.json
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-13-40-56.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-14-12-22.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/AnimDog_2015-09-12-14-22-28.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-32-12.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-40-55.uasset
+[2015.09.16-05.47.58:493][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-13-52-04.uasset
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-12-22.uasset
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-22-27.uasset
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-14-45-17.uasset
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-15-19-01.uasset
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonCharacter_2015-09-12-15-31-00.uasset
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-12-58-14.umap
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-12-19.umap
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-22-24.umap
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-14-45-14.umap
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonExampleMap_2015-09-12-15-19-14.umap
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	deleted:    PuppySim/Saved/Backup/FirstPersonGameMode_2015-09-12-12-58-15.uasset
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/Editor.ini
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	modified:   PuppySim/Saved/Config/Windows/Engine.ini
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	modified:   PuppySim/Saved/Logs/PuppySim.log
+[2015.09.16-05.47.58:494][  1]SourceControl: Info Untracked files:
+[2015.09.16-05.47.58:494][  1]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2015.09.16-05.47.58:494][  1]SourceControl: Info 	PuppySim/Content/DefaultShapes/
+[2015.09.16-05.47.58:730][  6]LogAssetRegistry: Asset discovery search completed in 3.3197 seconds
+[2015.09.16-05.47.58:730][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2015.09.16-05.47.58:730][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2015.09.16-05.48.05:864][282]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.16-05.48.06:365][282]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2015.09.16-05.48.10:294][443]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.09.16-05.48.10:294][443]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/DefaultShapes/Shape_Plane.uasset.
+[2015.09.16-05.48.10:294][443]LoadErrors:Error: Error /Game/DefaultShapes/Shape_Plane : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2015.09.16-05.48.10:294][443]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.09.16-05.48.10:294][443]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/DefaultShapes/Shape_Plane.uasset.
+[2015.09.16-05.48.10:413][443]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2015.09.16-05.48.10:414][443]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Plane
+[2015.09.16-05.48.10:414][443]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2015.09.16-05.48.10:520][443]LogAIModule: Creating AISystem for world AustinLevel
+[2015.09.16-05.48.10:558][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-05.48.10:586][443]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FDDECCC20
+[2015.09.16-05.48.10:599][443]Cmd: MAP LOAD FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/FirstPersonBP/Maps/AustinLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.16-05.48.10:600][443]LightingResults: New page: Lighting Build
+[2015.09.16-05.48.10:618][443]LoadErrors: New page: Loading map: AustinLevel.umap
+[2015.09.16-05.48.10:618][443]MapCheck: New page: Map Check
+[2015.09.16-05.48.10:618][443]LightingResults: New page: Lighting Build
+[2015.09.16-05.48.10:636][443]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FC75C0FE0
+[2015.09.16-05.48.10:707][443]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.16-05.48.10:752][443]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.16-05.48.10:823][443]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.368ms to complete.
+[2015.09.16-05.48.10:824][443]LogFileHelpers: Loading map 'AustinLevel' took 0.226
+[2015.09.16-05.50.17:210][780]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:/Data/Savannah/morescene/paintmenow/Ktable.obj)
+[2015.09.16-05.50.17:222][780]LogFbx: Loading FBX Scene from D:/Data/Savannah/morescene/paintmenow/Ktable.obj
+[2015.09.16-05.50.17:251][780]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.16-05.50.20:580][780]LogFbx: Loading FBX Scene from D:/Data/Savannah/morescene/paintmenow/Ktable.obj
+[2015.09.16-05.50.20:608][780]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.16-05.50.20:611][780]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/Table/None_003'
+[2015.09.16-05.50.20:611][780]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/Table/None_003'
+[2015.09.16-05.50.20:615][780]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/Table/Startup_Diffuse'
+[2015.09.16-05.50.20:615][780]LogLinker:Warning: Can't find file '/Game/Models/Scenery/Objects/Table/Startup_Diffuse'
+[2015.09.16-05.50.20:615][780]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Models/Scenery/Objects/Table/Startup_Diffuse.Startup_Diffuse'
+[2015.09.16-05.50.20:615][780]LogStreaming:Warning: Failed to read file 'D:\Data\Savannah\morescene\paintmenow\Startup_Diffuse.png' error.
+[2015.09.16-05.50.20:615][780]LogStreaming:Warning: Failed to read file 'D:/Data/Savannah/morescene/paintmenow/' error.
+[2015.09.16-05.50.20:615][780]LogStreaming:Warning: Failed to read file 'D:/Data/Savannah/morescene/paintmenow/' error.
+[2015.09.16-05.50.20:615][780]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - D:\Data\Savannah\morescene\paintmenow\Startup_Diffuse.png
+ - D:/Data/Savannah/morescene/paintmenow/
+ - D:/Data/Savannah/morescene/paintmenow/
+[2015.09.16-05.50.20:619][780]LogMaterial: Missing cached shader map for material None_003, compiling. 
+[2015.09.16-05.50.20:674][780]LogFbx:Warning: Triangulating static mesh default
+[2015.09.16-05.50.20:971][780]LogStaticMesh: Building static mesh Ktable...
+[2015.09.16-05.50.21:115][780]LogStaticMesh: Built static mesh [0.143999.2s] /Game/Models/Scenery/Objects/Table/Ktable.Ktable
+[2015.09.16-05.50.23:015][810]LogActorFactory: Actor Factory created Ktable
+[2015.09.16-05.50.23:297][817]LogActorFactory: Actor Factory created Ktable
+[2015.09.16-05.50.38:520][166]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/pault_000/Downloads/ktable_diffuse.png)
+[2015.09.16-05.50.38:568][166]LogTexture:Display: Building textures: ktable_diffuse (AutoDXT)
+[2015.09.16-05.50.40:744][219]LogMaterial: Missing cached shader map for material None_003, compiling. 
+[2015.09.16-05.50.40:805][219]LogMaterial: Missing cached shader map for material None_003, compiling. 
+[2015.09.16-05.50.40:810][219]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.50.40:841][219]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.09.16-05.50.41:655][245]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.09.16-05.50.41:655][245]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.09.16-05.50.41:655][245]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.09.16-05.50.43:020][297]LogMaterial: Missing cached shader map for material None_003, compiling. 
+[2015.09.16-05.50.43:026][297]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.50.43:027][297]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.16-05.50.43:053][297]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.09.16-05.50.43:056][297]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.16-05.50.43:751][321]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.09.16-05.50.43:751][321]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.09.16-05.50.43:751][321]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.09.16-05.50.47:332][506]LogMaterial: Missing cached shader map for material None_003, compiling. 
+[2015.09.16-05.50.47:337][506]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.50.48:084][534]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.09.16-05.50.48:084][534]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.09.16-05.50.48:084][534]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.09.16-05.50.48:956][582]LogMaterial: Missing cached shader map for material None_003, compiling. 
+[2015.09.16-05.50.48:961][582]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.50.48:991][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.16-05.50.49:736][610]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.09.16-05.50.49:736][610]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-05.50.49:736][610]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.16-05.50.50:900][658]LogMaterialEditor: Applying material None_003
+[2015.09.16-05.50.51:532][658]LogMaterial: Missing cached shader map for material None_003, compiling. 
+[2015.09.16-05.50.51:552][658]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.50.51:583][658]LogMaterial: Missing cached shader map for material None_003, compiling. 
+[2015.09.16-05.50.51:614][658]LogMaterial: Missing cached shader map for material None_003, compiling. 
+[2015.09.16-05.50.51:624][658]LogMaterial: 0.000975 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.50.57:334][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ktable)
+[2015.09.16-05.50.59:595][843]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.16-05.50.59:595][843]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-05.50.59:595][843]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.09.16-05.51.01:651][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.16-05.51.03:916][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ktable)
+[2015.09.16-05.51.05:935][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.16-05.51.07:247][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chair2)
+[2015.09.16-05.51.08:895][261]LogMaterial: Missing cached shader map for material chairmat, compiling. 
+[2015.09.16-05.51.08:969][261]LogMaterial: Missing cached shader map for material chairmat, compiling. 
+[2015.09.16-05.51.08:975][261]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.51.09:003][261]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.16-05.51.09:007][261]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.16-05.51.09:011][261]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.09.16-05.51.09:823][288]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.09.16-05.51.09:823][288]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-05.51.09:823][288]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.16-05.51.11:159][315]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.16-05.51.11:414][315]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.16-05.51.11:438][315]LogMaterial: 0.000160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.51.11:470][315]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.16-05.51.13:866][353]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.09.16-05.51.13:866][353]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-05.51.13:866][353]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.16-05.51.28:346][972]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.16-05.51.28:351][972]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.51.28:382][972]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.16-05.51.30:354][  8]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.09.16-05.51.30:355][  8]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-05.51.30:355][  8]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.PowerToRoughness:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.ConvertFromDiffSpec:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.CameraDepthFade:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/EngineMaterials/DefaultPostProcessMaterial.DefaultPostProcessMaterial:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/EngineMaterials/Widget3DPassThrough.Widget3DPassThrough:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/EditorMaterials/HelpActorMaterial.HelpActorMaterial:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/BufferVisualization/CustomStencil.CustomStencil:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/BufferVisualization/CustomDepthWorldUnits.CustomDepthWorldUnits:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/EngineDebugMaterials/ShadedLevelColorationLitMaterial.ShadedLevelColorationLitMaterial:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/EngineDebugMaterials/GeomMaterial.GeomMaterial:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/EditorMaterials/Cross_Mat.Cross_Mat:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/EditorMaterials/CompositeARGBLayer.CompositeARGBLayer:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/EngineSky/M_Sky_Panning_Clouds2.M_Sky_Panning_Clouds2:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Game/Models/Scenery/Objects/ChairObj/chairmat.chairmat:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Game/Models/Scenery/Objects/Sofa/None.Material_1:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:103][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/EditorMaterials/MakeCompositeARGBLayer.MakeCompositeARGBLayer:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:104][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/EditorMaterials/TextureGridCascaded2D.TextureGridCascaded2D:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:104][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Game/Models/Scenery/Objects/Sink/Sink2.Sink2:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:104][472]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0 or MaterialExpressionMultiply /Engine/Transient.chairmat:MaterialExpressionMultiply_0
+[2015.09.16-05.51.42:104][472]LogProperty:Warning: Illegal TEXT reference to a private object in external package (MaterialExpressionMultiply /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.ScreenAlignedUVs:MaterialExpressionMultiply_0) from referencer (MaterialExpressionAdd /Engine/Transient.PreviewMaterial_0:MaterialGraph_2.MaterialGraphNode_3.MaterialExpressionAdd_0).  Import failed...
+[2015.09.16-05.51.42:104][472]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'MaterialExpressionMultiply_0')'
+[2015.09.16-05.51.42:131][472]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.16-05.51.42:137][472]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.51.42:960][501]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.09.16-05.51.42:960][501]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-05.51.42:960][501]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.16-05.51.45:812][645]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.16-05.51.45:818][645]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.51.45:844][645]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.16-05.51.46:647][670]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.09.16-05.51.46:647][670]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-05.51.46:647][670]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.16-05.51.57:415][123]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.16-05.51.57:421][123]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.51.57:423][123]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.16-05.51.57:428][123]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.51.57:457][123]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.16-05.51.59:919][161]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.09.16-05.51.59:920][161]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-05.51.59:920][161]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.16-05.52.02:798][279]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.16-05.52.02:803][279]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.52.02:806][279]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.16-05.52.02:812][279]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.52.05:350][321]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.09.16-05.52.05:350][321]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-05.52.05:350][321]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.16-05.52.09:012][426]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.16-05.52.09:017][426]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.52.09:819][452]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.09.16-05.52.09:819][452]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-05.52.09:819][452]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.16-05.52.11:572][539]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.16-05.52.11:577][539]LogMaterial: 0.000155 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.52.12:371][564]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.09.16-05.52.12:371][564]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-05.52.12:371][564]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.16-05.52.14:572][665]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.16-05.52.14:579][665]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.52.15:418][692]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2015.09.16-05.52.15:418][692]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-05.52.15:418][692]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.09.16-05.52.18:164][788]LogMaterialEditor: Applying material None_003
+[2015.09.16-05.52.18:769][788]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.16-05.52.18:792][788]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.52.18:826][788]LogMaterial: Missing cached shader map for material None_003, compiling. 
+[2015.09.16-05.52.18:861][788]LogMaterial: Missing cached shader map for material None_003, compiling. 
+[2015.09.16-05.52.18:873][788]LogMaterial: 0.001076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.52.21:250][864]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.09.16-05.52.21:250][864]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.09.16-05.52.21:250][864]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.09.16-05.52.38:640][479]LogMaterialEditor: Applying material None_003
+[2015.09.16-05.52.39:252][479]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.09.16-05.52.39:272][479]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.52.39:302][479]LogMaterial: Missing cached shader map for material None_003, compiling. 
+[2015.09.16-05.52.39:334][479]LogMaterial: Missing cached shader map for material None_003, compiling. 
+[2015.09.16-05.52.39:346][479]LogMaterial: 0.001120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.52.45:044][605]LogMaterial: Missing cached shader map for material chairmat, compiling. 
+[2015.09.16-05.52.45:067][605]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.52.45:084][605]LogMaterial: Missing cached shader map for material chairmat, compiling. 
+[2015.09.16-05.52.45:116][605]LogMaterial: Missing cached shader map for material chairmat, compiling. 
+[2015.09.16-05.52.45:128][605]LogMaterial: 0.000988 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.52.46:425][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.16-05.53.00:357][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ktable)
+[2015.09.16-05.53.08:889][792]LogRenderer: Reallocating scene render targets to support 896x516 (Frame:10203).
+[2015.09.16-05.53.55:588][842]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.16-05.53.55:610][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005F8041DD00
+[2015.09.16-05.53.55:611][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FE9018AE0
+[2015.09.16-05.53.55:612][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FE897E160
+[2015.09.16-05.53.56:172][842]LogSavePackage: Save=342.936859ms
+[2015.09.16-05.53.56:172][842]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/AustinLevelB3D749064ECDC322BFEC878E9B3EB70D.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/FirstPersonBP/Maps/AustinLevel.umap'
+[2015.09.16-05.53.56:174][842]LogSavePackage: Total save time: 359.723069ms
+[2015.09.16-05.53.56:174][842]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/FirstPersonBP/Maps/AustinLevel.umap
+[2015.09.16-05.53.56:205][842]LogFileHelpers: Saving map 'AustinLevel' took 0.497
+[2015.09.16-05.53.56:225][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Table/Ktable" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Table/Ktable.uasset" SILENT=true
+[2015.09.16-05.53.56:240][842]LogSavePackage: Save=13.065218ms
+[2015.09.16-05.53.56:240][842]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Ktable34A0D89E4850CAEDB8589BBF2FCCE076.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Table/Ktable.uasset'
+[2015.09.16-05.53.56:241][842]LogSavePackage: Total save time: 14.253665ms
+[2015.09.16-05.53.56:241][842]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Table/Ktable.uasset
+[2015.09.16-05.53.56:314][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/ChairObj/chairmat" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/ChairObj/chairmat.uasset" SILENT=true
+[2015.09.16-05.53.56:336][842]LogSavePackage: Save=15.215456ms
+[2015.09.16-05.53.56:336][842]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/chairmatA99F6D244FB3BBFD5552A39034823E69.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/ChairObj/chairmat.uasset'
+[2015.09.16-05.53.56:362][842]LogSavePackage: Total save time: 46.136886ms
+[2015.09.16-05.53.56:362][842]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/ChairObj/chairmat.uasset
+[2015.09.16-05.53.56:383][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Table/None_003" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Table/None_003.uasset" SILENT=true
+[2015.09.16-05.53.56:399][842]LogSavePackage: Save=14.834845ms
+[2015.09.16-05.53.56:399][842]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/None_003322C592B484E26BCAA98838944EAD5F5.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Table/None_003.uasset'
+[2015.09.16-05.53.56:400][842]LogSavePackage: Total save time: 16.102836ms
+[2015.09.16-05.53.56:400][842]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Table/None_003.uasset
+[2015.09.16-05.53.56:486][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Table/ktable_diffuse" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Table/ktable_diffuse.uasset" SILENT=true
+[2015.09.16-05.53.56:603][842]LogSavePackage: Save=116.117546ms
+[2015.09.16-05.53.56:603][842]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/ktable_diffuseD0921EB74CEC850115EB5ABDF79B83EA.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Table/ktable_diffuse.uasset'
+[2015.09.16-05.53.56:604][842]LogSavePackage: Total save time: 117.391095ms
+[2015.09.16-05.53.56:604][842]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Table/ktable_diffuse.uasset
+[2015.09.16-05.53.58:377][921]LogRenderer: Reallocating scene render targets to support 1260x684 (Frame:11043).
+[2015.09.16-05.53.58:457][922]LogRenderer: Reallocating scene render targets to support 1536x864 (Frame:11045).
+[2015.09.16-05.53.59:106][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.16-05.53.59:106][937]PIE: New page: PIE session: AustinLevel (Sep 15, 2015, 9:53:59 PM)
+[2015.09.16-05.53.59:106][937]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel
+[2015.09.16-05.53.59:130][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024247s)
+[2015.09.16-05.53.59:131][937]LogAIModule: Creating AISystem for world AustinLevel
+[2015.09.16-05.53.59:131][937]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2015.09.16-05.53.59:132][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AustinLevel.AustinLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel (0.025580s)
+[2015.09.16-05.53.59:156][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FE8011620
+[2015.09.16-05.53.59:165][937]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.16-05.53.59:172][937]LogInit: FAudioDevice initialized.
+[2015.09.16-05.53.59:222][937]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.16-05.53.59:230][937]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel up for play (max tick rate 60) at 2015.09.16-01.53.59
+[2015.09.16-05.53.59:230][937]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.16-05.53.59:230][937]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.16-05.53.59:231][937]LogWorld: Bringing up level for play took: 0.008002
+[2015.09.16-05.53.59:232][937]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.09.16-05.53.59:235][937]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel -0.406
+[2015.09.16-05.54.19:593][244]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FBB1658A0
+[2015.09.16-05.54.28:057][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ktable)
+[2015.09.16-05.54.28:422][448]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor2)
+[2015.09.16-05.54.45:295][ 48]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2015.09.16-05.54.49:445][230]LogSavePackage: Save=329.697998ms
+[2015.09.16-05.54.49:445][230]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/AustinLevelB68F4774434CB6390E17A9B234C12FC0.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/FirstPersonBP/Maps/AustinLevel.umap'
+[2015.09.16-05.54.49:447][230]LogSavePackage: Total save time: 334.391486ms
+[2015.09.16-05.54.49:447][230]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/FirstPersonBP/Maps/AustinLevel.umap
+[2015.09.16-05.54.49:481][230]LogFileHelpers: Saving map 'AustinLevel' took 0.468
+[2015.09.16-05.54.54:834][509]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.09.16-05.55.13:959][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor4)
+[2015.09.16-05.55.15:638][589]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2015.09.16-05.55.15:715][589]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2015.09.16-05.55.15:722][589]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.55.15:746][589]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2015.09.16-05.55.17:174][647]MaterialEditorStats: Info Base pass shader with static lighting: 69 instructions
+[2015.09.16-05.55.17:175][647]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.09.16-05.55.17:175][647]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.09.16-05.55.17:175][647]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.09.16-05.55.18:135][691]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2015.09.16-05.55.18:144][691]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2015.09.16-05.55.18:150][691]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.55.19:015][727]LogMaterialEditor: Applying material Ceiling
+[2015.09.16-05.55.19:666][727]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2015.09.16-05.55.19:689][727]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.55.19:720][727]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2015.09.16-05.55.19:770][727]LogMaterial: Missing cached shader map for material Ceiling, compiling. 
+[2015.09.16-05.55.19:786][727]LogMaterial: 0.000964 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.55.22:280][844]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2015.09.16-05.55.22:280][844]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.09.16-05.55.22:280][844]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.09.16-05.55.22:280][844]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.09.16-05.55.30:371][244]MapCheck: New page: Map Check
+[2015.09.16-05.55.30:429][244]Cmd: MAP REBUILD ALLVISIBLE
+[2015.09.16-05.55.30:429][244]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.09.16-05.55.30:568][244]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.09.16-05.55.30:568][244]LogStats:          STAT_HLOD_BuildClusters - 21.309 ms
+[2015.09.16-05.55.30:568][244]LightingResults: New page: Lighting Build - Sep 15, 2015, 9:55:30 PM
+[2015.09.16-05.55.42:402][244]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.09.16-05.55.42:402][244]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.09.16-05.55.42:402][244]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.09.16-05.55.42:402][244]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.09.16-05.55.42:402][244]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.09.16-05.55.42:608][244]LogEditorBuildUtils: Build time 0:00:12
+[2015.09.16-05.55.42:622][244]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Ceiling, compiling. 
+[2015.09.16-05.55.42:626][244]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Ceiling, compiling. 
+[2015.09.16-05.55.42:840][245]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer None_003, compiling. 
+[2015.09.16-05.55.42:844][245]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer None_003, compiling. 
+[2015.09.16-05.55.56:791][624]LightingResults:Error: Error RUGGG Object has overlapping UVs.
+[2015.09.16-05.55.56:791][624]LightingResults: Info RUGGG Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.09.16-05.56.18:688][238]Job is a success!
+[2015.09.16-05.56.18:883][239]LogMaterial:Warning: Material /Game/Models/Scenery/Objects/Table/None_003.None_003 needed to have new flag set bUsedWithStaticLighting !
+[2015.09.16-05.56.18:886][239]LogMaterial: Missing cached shader map for material None_003, compiling. 
+[2015.09.16-05.56.18:895][239]LogMaterial: 0.000130 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.16-05.56.19:024][239]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2015.09.16-05.56.19:504][239]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.09.16-05.56.19:509][239]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.09.16-05.56.19:510][239]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2015.09.16-05.56.19:513][239]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.09.16-05.56.19:528][239]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.09.16-05.56.19:544][239]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2015.09.16-05.56.19:556][239]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.09.16-05.56.19:596][239]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.09.16-05.56.19:649][239]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2015.09.16-05.56.19:686][239]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.09.16-05.56.19:757][239]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.09.16-05.56.19:819][239]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2015.09.16-05.56.19:862][239]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.09.16-05.56.19:880][239]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.09.16-05.56.19:895][239]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2015.09.16-05.56.19:906][239]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.09.16-05.56.19:940][239]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.09.16-05.56.19:995][239]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2015.09.16-05.56.20:028][239]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.09.16-05.56.20:361][239]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.09.16-05.56.21:795][239]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.09.16-05.56.21:929][239]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.09.16-05.56.21:934][239]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.09.16-05.56.21:937][239]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.09.16-05.56.21:939][239]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2015.09.16-05.56.21:967][239]Lightmass on TSCHIRGIMACHINE: 36.3 sec total, 362 ms importing, 51 ms setup, 1.37 sec photons, 34.5 sec processing, 0 ms extra exporting [19/19 mappings]. Threads: 4:01 min total, 1:27 min processing.
+[2015.09.16-05.56.22:004][239]LogStaticLightingSystem: Illumination: 51.3 sec (3.03 sec encoding lightmaps)
+[2015.09.16-05.56.22:004][239]LogStaticLightingSystem: Lightmap texture memory:  1.6 MB (1.6 MB streaming, 0.0 MB non-streaming), 14 textures
+[2015.09.16-05.56.22:004][239]LogStaticLightingSystem: Shadowmap texture memory: 10.9 MB (10.9 MB streaming, 0.0 MB non-streaming), 5 textures
+[2015.09.16-05.56.22:430][240]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.09.16-05.56.22:430][240]MapCheck: New page: AustinLevel - Sep 15, 2015, 9:56:22 PM
+[2015.09.16-05.56.22:492][240]MapCheck:Error: Error levelpuppyv3_with_assets_7 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2015.09.16-05.56.22:492][240]MapCheck:Warning: Warning levelpuppyv3_with_assets_7 Static mesh actor has NULL StaticMesh property 
+[2015.09.16-05.56.22:492][240]MapCheck:Warning: Warning levelpuppyv3_with_assets_7 Static mesh actor has NULL StaticMesh property 
+[2015.09.16-05.56.22:492][240]MapCheck:Warning: Warning Mirrir4 Static mesh actor has NULL StaticMesh property 
+[2015.09.16-05.56.22:572][240]MapCheck: Info Map check complete: 1 Error(s), 3 Warning(s), took 142.411ms to complete.
+[2015.09.16-05.56.26:993][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.16-05.56.26:993][392]PIE: New page: PIE session: AustinLevel (Sep 15, 2015, 9:56:26 PM)
+[2015.09.16-05.56.26:993][392]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel
+[2015.09.16-05.56.27:016][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022834s)
+[2015.09.16-05.56.27:016][392]LogAIModule: Creating AISystem for world AustinLevel
+[2015.09.16-05.56.27:016][392]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2015.09.16-05.56.27:017][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AustinLevel.AustinLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel (0.023857s)
+[2015.09.16-05.56.27:050][392]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.16-05.56.27:057][392]LogInit: FAudioDevice initialized.
+[2015.09.16-05.56.27:096][392]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.16-05.56.27:104][392]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel up for play (max tick rate 60) at 2015.09.16-01.56.27
+[2015.09.16-05.56.27:104][392]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.16-05.56.27:105][392]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.16-05.56.27:106][392]LogWorld: Bringing up level for play took: 0.008709
+[2015.09.16-05.56.27:107][392]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.09.16-05.56.27:109][392]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel -0.531
+[2015.09.16-05.56.30:578][441]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1209
+[2015.09.16-05.56.30:579][441]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.30:643][442]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1209
+[2015.09.16-05.56.30:643][442]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.30:709][443]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1209
+[2015.09.16-05.56.30:709][443]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.30:774][444]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:09DE
+[2015.09.16-05.56.30:774][444]PIE:Error: Error Accessed None 'physicsHandle' from node Release Component in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.30:774][444]LogScript:Warning: Accessed None 'CallFunc_BreakHitResult_HitComponent'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0AA7
+[2015.09.16-05.56.30:774][444]PIE:Error: Error Accessed None 'CallFunc_BreakHitResult_HitComponent' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.37:042][544]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1209
+[2015.09.16-05.56.37:042][544]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.37:103][545]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1209
+[2015.09.16-05.56.37:103][545]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.37:164][546]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1209
+[2015.09.16-05.56.37:164][546]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.37:225][547]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1209
+[2015.09.16-05.56.37:225][547]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.37:285][548]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1209
+[2015.09.16-05.56.37:285][548]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.37:347][549]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1209
+[2015.09.16-05.56.37:347][549]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.37:407][550]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1209
+[2015.09.16-05.56.37:408][550]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.37:468][551]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1209
+[2015.09.16-05.56.37:468][551]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.37:529][552]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:09DE
+[2015.09.16-05.56.37:529][552]PIE:Error: Error Accessed None 'physicsHandle' from node Release Component in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.37:529][552]LogScript:Warning: Accessed None 'CallFunc_BreakHitResult_HitComponent'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0AA7
+[2015.09.16-05.56.37:529][552]PIE:Error: Error Accessed None 'CallFunc_BreakHitResult_HitComponent' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.38:855][573]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1209
+[2015.09.16-05.56.38:855][573]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.38:921][574]LogScript:Warning: Accessed None 'physicsHandle'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:1209
+[2015.09.16-05.56.38:921][574]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.38:986][575]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.39:054][576]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.39:121][577]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.39:187][578]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.39:253][579]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.39:318][580]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.39:386][581]PIE:Error: Error Accessed None 'physicsHandle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.39:450][582]PIE:Error: Error Accessed None 'physicsHandle' from node Release Component in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.39:450][582]PIE:Error: Error Accessed None 'CallFunc_BreakHitResult_HitComponent' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint FirstPersonCharacter
+[2015.09.16-05.56.39:711][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005F903C9A80
+[2015.09.16-05.56.41:661][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor3)
+[2015.09.16-05.56.42:027][637]LogEditorViewport: Clicking on Actor (LMB): Mirrir_C (Mirrir4)
+[2015.09.16-05.57.02:008][413]BlueprintLog: New page: Compile Mirrir
+[2015.09.16-05.57.02:105][413]BlueprintEditorCompileResults: Info [0551.13] Compile of Mirrir successful! [in 96 ms]
+[2015.09.16-05.57.03:829][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFloor3)
+[2015.09.16-05.57.05:607][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.16-05.57.05:607][549]PIE: New page: PIE session: AustinLevel (Sep 15, 2015, 9:57:05 PM)
+[2015.09.16-05.57.05:607][549]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel
+[2015.09.16-05.57.05:645][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037545s)
+[2015.09.16-05.57.05:646][549]LogAIModule: Creating AISystem for world AustinLevel
+[2015.09.16-05.57.05:646][549]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2015.09.16-05.57.05:646][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AustinLevel.AustinLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel (0.038847s)
+[2015.09.16-05.57.05:673][549]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FC767ADE0
+[2015.09.16-05.57.05:680][549]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.16-05.57.05:687][549]LogInit: FAudioDevice initialized.
+[2015.09.16-05.57.05:722][549]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.16-05.57.05:729][549]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel up for play (max tick rate 60) at 2015.09.16-01.57.05
+[2015.09.16-05.57.05:729][549]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.16-05.57.05:730][549]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.16-05.57.05:730][549]LogWorld: Bringing up level for play took: 0.007626
+[2015.09.16-05.57.05:731][549]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.09.16-05.57.05:733][549]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel 0.092
+[2015.09.16-05.57.13:417][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FC76DB2E0
+[2015.09.16-05.57.17:552][766]LogEditorViewport: Clicking on Actor (LMB): Mirrir_C (Mirrir4)
+[2015.09.16-05.57.22:961][994]LogEditorViewport: Clicking on Actor (LMB): windowRefl_C (window6)
+[2015.09.16-05.57.29:729][283]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FE29A5620
+[2015.09.16-05.57.30:348][283]LogSavePackage: Save=432.716125ms
+[2015.09.16-05.57.30:348][283]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/AustinLevel265CBCC0431F1D7BA7925C862241D75A.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/FirstPersonBP/Maps/AustinLevel.umap'
+[2015.09.16-05.57.30:350][283]LogSavePackage: Total save time: 437.339898ms
+[2015.09.16-05.57.30:350][283]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/FirstPersonBP/Maps/AustinLevel.umap
+[2015.09.16-05.57.30:379][283]LogFileHelpers: Saving map 'AustinLevel' took 0.565
+[2015.09.16-05.57.30:402][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractBlueprints/Mirrir" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/InteractBlueprints/Mirrir.uasset" SILENT=true
+[2015.09.16-05.57.30:414][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:414][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:415][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:415][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:415][283]LogBlueprintUserMessages: Serialization for Get node for variable 'matInst' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:415][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:415][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:415][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:415][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:415][283]LogBlueprintUserMessages: Serialization for Get node for variable 'DefaultSceneRoot' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:415][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:421][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:422][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:422][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:422][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:422][283]LogBlueprintUserMessages: Serialization for Get node for variable 'matInst' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:422][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:422][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:422][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:422][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:422][283]LogBlueprintUserMessages: Serialization for Get node for variable 'DefaultSceneRoot' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:422][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:428][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:428][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:429][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:429][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:429][283]LogBlueprintUserMessages: Serialization for Get node for variable 'matInst' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:429][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:429][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:429][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:429][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:429][283]LogBlueprintUserMessages: Serialization for Get node for variable 'DefaultSceneRoot' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:429][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:447][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:447][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:447][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:447][283]LogBlueprintUserMessages: Serialization for Get node for variable 'matInst' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:447][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:447][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:447][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:447][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:447][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:447][283]LogBlueprintUserMessages: Serialization for Get node for variable 'DefaultSceneRoot' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:447][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:470][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:470][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:470][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:470][283]LogBlueprintUserMessages: Serialization for Get node for variable 'matInst' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:470][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:470][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:470][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:470][283]LogBlueprintUserMessages: Serialization for Get node for variable 'StaticMesh' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:470][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:470][283]LogBlueprintUserMessages: Serialization for Get node for variable 'DefaultSceneRoot' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:470][283]LogBlueprintUserMessages: Serialization for Get node for variable 'SceneCaptureComponent2D' in Blueprint '/Game/InteractBlueprints/Mirrir.Mirrir' which is setup as pure
+[2015.09.16-05.57.30:473][283]LogSavePackage: Save=65.238419ms
+[2015.09.16-05.57.30:473][283]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Mirrir558232A741B542E7D921E0BE7457164D.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/InteractBlueprints/Mirrir.uasset'
+[2015.09.16-05.57.30:474][283]LogSavePackage: Total save time: 71.211446ms
+[2015.09.16-05.57.30:474][283]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/InteractBlueprints/Mirrir.uasset
+[2015.09.16-05.57.30:481][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/Objects/Table/None_003" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Table/None_003.uasset" SILENT=true
+[2015.09.16-05.57.30:491][283]LogSavePackage: Save=3.961347ms
+[2015.09.16-05.57.30:491][283]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/None_003AB2E006340D79D2178C517985EAA2139.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Table/None_003.uasset'
+[2015.09.16-05.57.30:492][283]LogSavePackage: Total save time: 10.102440ms
+[2015.09.16-05.57.30:492][283]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/Objects/Table/None_003.uasset
+[2015.09.16-05.57.30:527][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scenery/WallsFloor/Ceiling" FILE="D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/WallsFloor/Ceiling.uasset" SILENT=true
+[2015.09.16-05.57.30:546][283]LogSavePackage: Save=12.283896ms
+[2015.09.16-05.57.30:546][283]LogSavePackage: Moving 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Saved/Ceiling6D9F8F4B44A2A7494581F7815AA6E5D6.tmp' to 'D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/WallsFloor/Ceiling.uasset'
+[2015.09.16-05.57.30:547][283]LogSavePackage: Total save time: 19.655347ms
+[2015.09.16-05.57.30:547][283]LogSavePackage:Warning: Finished SavePackage D:/Data/Unreal Projects/PuppyGame/PuppySim/Content/Models/Scenery/WallsFloor/Ceiling.uasset
+[2015.09.16-05.57.30:951][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FE29A7880
+[2015.09.16-05.57.36:049][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.16-05.57.36:049][584]PIE: New page: PIE session: AustinLevel (Sep 15, 2015, 9:57:36 PM)
+[2015.09.16-05.57.36:049][584]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel
+[2015.09.16-05.57.36:074][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024697s)
+[2015.09.16-05.57.36:075][584]LogAIModule: Creating AISystem for world AustinLevel
+[2015.09.16-05.57.36:075][584]LogPlayLevel: PIE: World Init took: (0.001244s)
+[2015.09.16-05.57.36:075][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/AustinLevel.AustinLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel (0.026164s)
+[2015.09.16-05.57.36:105][584]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.16-05.57.36:112][584]LogInit: FAudioDevice initialized.
+[2015.09.16-05.57.36:149][584]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.16-05.57.36:158][584]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel up for play (max tick rate 60) at 2015.09.16-01.57.36
+[2015.09.16-05.57.36:158][584]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.16-05.57.36:158][584]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel.AustinLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.16-05.57.36:159][584]LogWorld: Bringing up level for play took: 0.008031
+[2015.09.16-05.57.36:159][584]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2015.09.16-05.57.36:161][584]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_AustinLevel 0.521
+[2015.09.16-05.57.42:723][681]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005F809EEDE0
+[2015.09.16-05.58.03:375][555]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.16-05.58.03:656][556]Cmd: QUIT_EDITOR
+[2015.09.16-05.58.04:263][556]LogExit: Preparing to exit.
+[2015.09.16-05.58.04:887][556]LogExit: Editor shut down
+[2015.09.16-05.58.04:887][556]LogExit: Transaction tracking system shut down
+[2015.09.16-05.58.04:889][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FE8E67560
+[2015.09.16-05.58.04:889][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FDD983880
+[2015.09.16-05.58.04:889][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FDE3AFCE0
+[2015.09.16-05.58.04:889][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FDDF556C0
+[2015.09.16-05.58.04:889][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FDDF554E0
+[2015.09.16-05.58.04:894][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005FE9148540
+[2015.09.16-05.58.05:097][556]LogExit: Object subsystem successfully closed.
+[2015.09.16-05.58.05:103][556]LogD3D11RHI: Shutdown
+[2015.09.16-05.58.05:103][556]LogD3D11RHI: CleanupD3DDevice
+[2015.09.16-05.58.05:170][556]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.16-05.58.05:182][556]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (200)
+[2015.09.16-05.58.05:182][556]LogModuleManager: Shutting down and abandoning module MaterialEditor (199)
+[2015.09.16-05.58.05:182][556]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.09.16-05.58.05:182][556]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.09.16-05.58.05:182][556]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.09.16-05.58.05:182][556]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.09.16-05.58.05:182][556]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.09.16-05.58.05:182][556]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.09.16-05.58.05:183][556]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.09.16-05.58.05:183][556]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.09.16-05.58.05:184][556]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.09.16-05.58.05:873][556]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.09.16-05.58.05:874][556]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.09.16-05.58.06:090][556]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.09.16-05.58.06:090][556]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.09.16-05.58.06:090][556]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.09.16-05.58.06:090][556]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.09.16-05.58.06:090][556]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.09.16-05.58.06:090][556]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.09.16-05.58.06:090][556]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.09.16-05.58.06:090][556]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.09.16-05.58.06:101][556]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.09.16-05.58.06:102][556]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.09.16-05.58.06:103][556]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.09.16-05.58.06:219][556]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.09.16-05.58.06:220][556]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.09.16-05.58.06:220][556]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.09.16-05.58.06:321][556]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.09.16-05.58.06:321][556]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.09.16-05.58.06:321][556]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.09.16-05.58.06:324][556]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.09.16-05.58.06:326][556]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.09.16-05.58.06:326][556]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.09.16-05.58.06:326][556]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.09.16-05.58.06:326][556]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.09.16-05.58.06:326][556]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.09.16-05.58.06:326][556]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.09.16-05.58.06:326][556]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.09.16-05.58.06:326][556]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.09.16-05.58.06:326][556]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.09.16-05.58.06:326][556]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.09.16-05.58.06:328][556]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.09.16-05.58.06:359][556]LogDerivedDataCache: Shutdown
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.09.16-05.58.06:359][556]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.09.16-05.58.07:360][556]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.09.16-05.58.07:360][556]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.09.16-05.58.07:360][556]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.09.16-05.58.07:360][556]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.09.16-05.58.07:360][556]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.09.16-05.58.07:360][556]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.09.16-05.58.07:362][556]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.09.16-05.58.07:362][556]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.09.16-05.58.07:362][556]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.09.16-05.58.07:362][556]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.16-05.58.07:362][556]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.16-05.58.07:362][556]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.16-05.58.07:362][556]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.16-05.58.07:362][556]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.16-05.58.07:362][556]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.16-05.58.07:362][556]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.16-05.58.07:363][556]LogExit: Exiting.
+[2015.09.16-05.58.07:379][556]Log file closed, 09/16/15 01:58:07
